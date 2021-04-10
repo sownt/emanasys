@@ -7,4 +7,4 @@ A management system base on JavaFX, MySQL.
  - JDBC Driver 8.0.23
 
 ### Database schema
-![database_schema](src/assets/database_uml.png)
+![database_schema](src/assets/database_uml.svg)
