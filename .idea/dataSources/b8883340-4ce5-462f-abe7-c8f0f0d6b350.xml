@@ -1,30 +1,200 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="MySQL">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.20">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.21">
     <root id="1">
       <ServerVersion>8.0.23</ServerVersion>
+      <Grants>|root||root||ALTER|G
+|root||root|localhost|ALTER|G
+|root||root||ALTER ROUTINE|G
+|root||root|localhost|ALTER ROUTINE|G
+|root||root||APPLICATION_PASSWORD_ADMIN|G
+|root||root|localhost|APPLICATION_PASSWORD_ADMIN|G
+|root||root||AUDIT_ADMIN|G
+|root||root|localhost|AUDIT_ADMIN|G
+|root||mysql.session|localhost|BACKUP_ADMIN|G
+|root||root||BACKUP_ADMIN|G
+|root||root|localhost|BACKUP_ADMIN|G
+|root||root||BINLOG_ADMIN|G
+|root||root|localhost|BINLOG_ADMIN|G
+|root||root||BINLOG_ENCRYPTION_ADMIN|G
+|root||root|localhost|BINLOG_ENCRYPTION_ADMIN|G
+|root||mysql.session|localhost|CLONE_ADMIN|G
+|root||root||CLONE_ADMIN|G
+|root||root|localhost|CLONE_ADMIN|G
+|root||mysql.session|localhost|CONNECTION_ADMIN|G
+|root||root||CONNECTION_ADMIN|G
+|root||root|localhost|CONNECTION_ADMIN|G
+|root||root||CREATE|G
+|root||root|localhost|CREATE|G
+|root||root||CREATE ROLE|G
+|root||root|localhost|CREATE ROLE|G
+|root||root||CREATE ROUTINE|G
+|root||root|localhost|CREATE ROUTINE|G
+|root||root||CREATE TABLESPACE|G
+|root||root|localhost|CREATE TABLESPACE|G
+|root||root||CREATE TEMPORARY TABLES|G
+|root||root|localhost|CREATE TEMPORARY TABLES|G
+|root||root||CREATE USER|G
+|root||root|localhost|CREATE USER|G
+|root||root||CREATE VIEW|G
+|root||root|localhost|CREATE VIEW|G
+|root||root||DELETE|G
+|root||root|localhost|DELETE|G
+|root||root||DROP|G
+|root||root|localhost|DROP|G
+|root||root||DROP ROLE|G
+|root||root|localhost|DROP ROLE|G
+|root||root||ENCRYPTION_KEY_ADMIN|G
+|root||root|localhost|ENCRYPTION_KEY_ADMIN|G
+|root||root||EVENT|G
+|root||root|localhost|EVENT|G
+|root||root||EXECUTE|G
+|root||root|localhost|EXECUTE|G
+|root||root||FILE|G
+|root||root|localhost|FILE|G
+|root||root||FLUSH_OPTIMIZER_COSTS|G
+|root||root|localhost|FLUSH_OPTIMIZER_COSTS|G
+|root||root||FLUSH_STATUS|G
+|root||root|localhost|FLUSH_STATUS|G
+|root||root||FLUSH_TABLES|G
+|root||root|localhost|FLUSH_TABLES|G
+|root||root||FLUSH_USER_RESOURCES|G
+|root||root|localhost|FLUSH_USER_RESOURCES|G
+|root||root||GROUP_REPLICATION_ADMIN|G
+|root||root|localhost|GROUP_REPLICATION_ADMIN|G
+|root||root||INDEX|G
+|root||root|localhost|INDEX|G
+|root||root||INNODB_REDO_LOG_ARCHIVE|G
+|root||root|localhost|INNODB_REDO_LOG_ARCHIVE|G
+|root||root||INNODB_REDO_LOG_ENABLE|G
+|root||root|localhost|INNODB_REDO_LOG_ENABLE|G
+|root||root||INSERT|G
+|root||root|localhost|INSERT|G
+|root||root||LOCK TABLES|G
+|root||root|localhost|LOCK TABLES|G
+|root||mysql.session|localhost|PERSIST_RO_VARIABLES_ADMIN|G
+|root||root||PERSIST_RO_VARIABLES_ADMIN|G
+|root||root|localhost|PERSIST_RO_VARIABLES_ADMIN|G
+|root||root||PROCESS|G
+|root||root|localhost|PROCESS|G
+|root||root||REFERENCES|G
+|root||root|localhost|REFERENCES|G
+|root||root||RELOAD|G
+|root||root|localhost|RELOAD|G
+|root||root||REPLICATION CLIENT|G
+|root||root|localhost|REPLICATION CLIENT|G
+|root||root||REPLICATION SLAVE|G
+|root||root|localhost|REPLICATION SLAVE|G
+|root||root||REPLICATION_APPLIER|G
+|root||root|localhost|REPLICATION_APPLIER|G
+|root||root||REPLICATION_SLAVE_ADMIN|G
+|root||root|localhost|REPLICATION_SLAVE_ADMIN|G
+|root||root||RESOURCE_GROUP_ADMIN|G
+|root||root|localhost|RESOURCE_GROUP_ADMIN|G
+|root||root||RESOURCE_GROUP_USER|G
+|root||root|localhost|RESOURCE_GROUP_USER|G
+|root||root||ROLE_ADMIN|G
+|root||root|localhost|ROLE_ADMIN|G
+|root||mysql.infoschema|localhost|SELECT|G
+|root||root||SELECT|G
+|root||root|localhost|SELECT|G
+|root||root||SERVICE_CONNECTION_ADMIN|G
+|root||root|localhost|SERVICE_CONNECTION_ADMIN|G
+|root||mysql.session|localhost|SESSION_VARIABLES_ADMIN|G
+|root||root||SESSION_VARIABLES_ADMIN|G
+|root||root|localhost|SESSION_VARIABLES_ADMIN|G
+|root||root||SET_USER_ID|G
+|root||root|localhost|SET_USER_ID|G
+|root||root||SHOW DATABASES|G
+|root||root|localhost|SHOW DATABASES|G
+|root||root||SHOW VIEW|G
+|root||root|localhost|SHOW VIEW|G
+|root||root||SHOW_ROUTINE|G
+|root||root|localhost|SHOW_ROUTINE|G
+|root||mysql.session|localhost|SHUTDOWN|G
+|root||root||SHUTDOWN|G
+|root||root|localhost|SHUTDOWN|G
+|root||mysql.session|localhost|SUPER|G
+|root||root||SUPER|G
+|root||root|localhost|SUPER|G
+|root||mysql.infoschema|localhost|SYSTEM_USER|G
+|root||mysql.session|localhost|SYSTEM_USER|G
+|root||mysql.sys|localhost|SYSTEM_USER|G
+|root||root||SYSTEM_USER|G
+|root||root|localhost|SYSTEM_USER|G
+|root||mysql.session|localhost|SYSTEM_VARIABLES_ADMIN|G
+|root||root||SYSTEM_VARIABLES_ADMIN|G
+|root||root|localhost|SYSTEM_VARIABLES_ADMIN|G
+|root||root||TABLE_ENCRYPTION_ADMIN|G
+|root||root|localhost|TABLE_ENCRYPTION_ADMIN|G
+|root||root||TRIGGER|G
+|root||root|localhost|TRIGGER|G
+|root||root||UPDATE|G
+|root||root|localhost|UPDATE|G
+|root||root||XA_RECOVER_ADMIN|G
+|root||root|localhost|XA_RECOVER_ADMIN|G
+|root||root||grant option|G
+|root||root|localhost|grant option|G
+onebrain|schema||onebrain||ALTER|G
+onebrain|schema||onebrain|localhost|ALTER|G
+onebrain|schema||onebrain||ALTER ROUTINE|G
+onebrain|schema||onebrain|localhost|ALTER ROUTINE|G
+onebrain|schema||onebrain||CREATE|G
+onebrain|schema||onebrain|localhost|CREATE|G
+onebrain|schema||onebrain||CREATE ROUTINE|G
+onebrain|schema||onebrain|localhost|CREATE ROUTINE|G
+onebrain|schema||onebrain||CREATE TEMPORARY TABLES|G
+onebrain|schema||onebrain|localhost|CREATE TEMPORARY TABLES|G
+onebrain|schema||onebrain||CREATE VIEW|G
+onebrain|schema||onebrain|localhost|CREATE VIEW|G
+onebrain|schema||onebrain||DELETE|G
+onebrain|schema||onebrain|localhost|DELETE|G
+onebrain|schema||onebrain||DROP|G
+onebrain|schema||onebrain|localhost|DROP|G
+onebrain|schema||onebrain||EVENT|G
+onebrain|schema||onebrain|localhost|EVENT|G
+onebrain|schema||onebrain||EXECUTE|G
+onebrain|schema||onebrain|localhost|EXECUTE|G
+onebrain|schema||onebrain||INDEX|G
+onebrain|schema||onebrain|localhost|INDEX|G
+onebrain|schema||onebrain||INSERT|G
+onebrain|schema||onebrain|localhost|INSERT|G
+onebrain|schema||onebrain||LOCK TABLES|G
+onebrain|schema||onebrain|localhost|LOCK TABLES|G
+onebrain|schema||onebrain||REFERENCES|G
+onebrain|schema||onebrain|localhost|REFERENCES|G
+onebrain|schema||onebrain||SELECT|G
+onebrain|schema||onebrain|localhost|SELECT|G
+onebrain|schema||onebrain||SHOW VIEW|G
+onebrain|schema||onebrain|localhost|SHOW VIEW|G
+onebrain|schema||onebrain||TRIGGER|G
+onebrain|schema||onebrain|localhost|TRIGGER|G
+onebrain|schema||onebrain||UPDATE|G
+onebrain|schema||onebrain|localhost|UPDATE|G
+performance_schema|schema||mysql.session|localhost|SELECT|G
+sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <DefaultEngine>InnoDB</DefaultEngine>
       <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
       <DefaultCasing>exact</DefaultCasing>
     </root>
-    <schema id="2" parent="1" name="employee">
+    <schema id="2" parent="1" name="information_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="3" parent="1" name="mysql">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="4" parent="1" name="onebrain">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="5" parent="1" name="performance_schema">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="6" parent="1" name="sys">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="7" parent="1" name="vo">
       <Current>1</Current>
       <Collation>utf8_general_ci</Collation>
-    </schema>
-    <schema id="3" parent="1" name="information_schema">
-      <Collation>utf8_general_ci</Collation>
-    </schema>
-    <schema id="4" parent="1" name="mysql">
-      <Collation>utf8mb4_0900_ai_ci</Collation>
-    </schema>
-    <schema id="5" parent="1" name="onebrain">
-      <Collation>utf8_general_ci</Collation>
-    </schema>
-    <schema id="6" parent="1" name="performance_schema">
-      <Collation>utf8mb4_0900_ai_ci</Collation>
-    </schema>
-    <schema id="7" parent="1" name="sys">
-      <Collation>utf8mb4_0900_ai_ci</Collation>
     </schema>
     <collation id="8" parent="1" name="armscii8_bin">
       <Charset>armscii8</Charset>
@@ -885,44 +1055,187 @@
     </collation>
     <user id="280" parent="1" name="mysql.infoschema">
       <Host>localhost</Host>
-      <ObjectGrants>SELECT
-SYSTEM_USER
-</ObjectGrants>
+      <Plugin>caching_sha2_password</Plugin>
     </user>
     <user id="281" parent="1" name="mysql.session">
       <Host>localhost</Host>
-      <ObjectGrants>SHUTDOWN,SUPER
-BACKUP_ADMIN,CLONE_ADMIN,CONNECTION_ADMIN,PERSIST_RO_VARIABLES_ADMIN,SESSION_VARIABLES_ADMIN,SYSTEM_USER,SYSTEM_VARIABLES_ADMIN
-SELECT|performance_schema
-SELECT|mysql.user
-</ObjectGrants>
+      <Plugin>caching_sha2_password</Plugin>
     </user>
     <user id="282" parent="1" name="mysql.sys">
       <Host>localhost</Host>
-      <ObjectGrants>SYSTEM_USER
-TRIGGER|sys
-SELECT|sys.sys_config
-</ObjectGrants>
+      <Plugin>caching_sha2_password</Plugin>
     </user>
     <user id="283" parent="1" name="onebrain">
-      <Host>%</Host>
-      <ObjectGrants>ALL PRIVILEGES|onebrain
-</ObjectGrants>
+      <Plugin>caching_sha2_password</Plugin>
     </user>
     <user id="284" parent="1" name="onebrain">
       <Host>localhost</Host>
-      <ObjectGrants>ALL PRIVILEGES|onebrain
-</ObjectGrants>
+      <Plugin>caching_sha2_password</Plugin>
     </user>
     <user id="285" parent="1" name="root">
-      <Host>%</Host>
-      <ObjectGrants>SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,RELOAD,SHUTDOWN,PROCESS,FILE,REFERENCES,INDEX,ALTER,SHOW DATABASES,SUPER,CREATE TEMPORARY TABLES,LOCK TABLES,EXECUTE,REPLICATION SLAVE,REPLICATION CLIENT,CREATE VIEW,SHOW VIEW,CREATE ROUTINE,ALTER ROUTINE,CREATE USER,EVENT,TRIGGER,CREATE TABLESPACE,CREATE ROLE,DROP ROLE!
-</ObjectGrants>
+      <Plugin>caching_sha2_password</Plugin>
     </user>
     <user id="286" parent="1" name="root">
       <Host>localhost</Host>
-      <ObjectGrants>SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,RELOAD,SHUTDOWN,PROCESS,FILE,REFERENCES,INDEX,ALTER,SHOW DATABASES,SUPER,CREATE TEMPORARY TABLES,LOCK TABLES,EXECUTE,REPLICATION SLAVE,REPLICATION CLIENT,CREATE VIEW,SHOW VIEW,CREATE ROUTINE,ALTER ROUTINE,CREATE USER,EVENT,TRIGGER,CREATE TABLESPACE,CREATE ROLE,DROP ROLE!
-</ObjectGrants>
+      <Plugin>caching_sha2_password</Plugin>
     </user>
+    <table id="287" parent="7" name="users"/>
+    <table id="288" parent="7" name="vo_departments"/>
+    <table id="289" parent="7" name="vo_employee"/>
+    <table id="290" parent="7" name="vo_manager"/>
+    <table id="291" parent="7" name="vo_salaries"/>
+    <column id="292" parent="287" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="293" parent="287" name="username">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="294" parent="287" name="password">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <index id="295" parent="287" name="usr_fk">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="296" parent="287" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>username</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="297" parent="287" name="usr_fk">
+      <ColNames>id</ColNames>
+      <RefTableName>vo_employee</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="298" parent="288" name="dep_no">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="299" parent="288" name="dep_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <key id="300" parent="288" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>dep_no</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="301" parent="289" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="302" parent="289" name="first_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="303" parent="289" name="last_name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="304" parent="289" name="birthday">
+      <Position>4</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="305" parent="289" name="gender">
+      <Position>5</Position>
+      <DataType>varchar(5)|0s</DataType>
+    </column>
+    <column id="306" parent="289" name="hire_date">
+      <Position>6</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="307" parent="289" name="department">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="308" parent="289" name="emp_fk2">
+      <ColNames>department</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="309" parent="289" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="310" parent="289" name="emp_fk2">
+      <ColNames>department</ColNames>
+      <RefTableName>vo_departments</RefTableName>
+      <RefColNames>dep_no</RefColNames>
+    </foreign-key>
+    <column id="311" parent="290" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="312" parent="290" name="dep_no">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="313" parent="290" name="from_date">
+      <Position>3</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="314" parent="290" name="to_date">
+      <Position>4</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <index id="315" parent="290" name="mg_fk2">
+      <ColNames>dep_no</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="316" parent="290" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id
+dep_no</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="317" parent="290" name="mg_fk">
+      <ColNames>id</ColNames>
+      <RefTableName>vo_employee</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="318" parent="290" name="mg_fk2">
+      <ColNames>dep_no</ColNames>
+      <RefTableName>vo_departments</RefTableName>
+      <RefColNames>dep_no</RefColNames>
+    </foreign-key>
+    <column id="319" parent="291" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="320" parent="291" name="salary">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="321" parent="291" name="from_date">
+      <Position>3</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="322" parent="291" name="to_date">
+      <Position>4</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <key id="323" parent="291" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="324" parent="291" name="sal_fk">
+      <ColNames>id</ColNames>
+      <RefTableName>vo_employee</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
   </database-model>
 </dataSource>

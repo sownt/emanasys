@@ -142,7 +142,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="/opt/jdk/javafx-sdk-16/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -255,6 +255,9 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1617723533526" duration="304000" />
+      <workItem from="1618064769284" duration="164000" />
+      <workItem from="1618064983784" duration="2613000" />
+      <workItem from="1618067600884" duration="365000" />
     </task>
     <servers />
   </component>
