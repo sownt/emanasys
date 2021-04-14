@@ -1,3 +1,7 @@
+/**
+ *
+ * @author Tran Thai Son
+ */
 package com.vosxvo.java.services.database;
 
 import java.sql.Connection;
@@ -15,15 +19,9 @@ public class MySQLServices implements DatabaseServices {
             Class.forName(JDBC_DRIVER);
             connection = DriverManager.getConnection(MYSQL_PROTOCOL + url, username, password);
         } catch (ClassNotFoundException | SQLException exception) {
-            // Write to log TODO
+            // TODO : Write exception to log
             exception.printStackTrace();
         }
         return connection;
-    }
-
-    public static void main(String[] args) throws SQLException {
-        MySQLServices services = new MySQLServices();
-        Connection connection = services.connectTo("172.17.0.2", "root", "010118");
-        System.out.println(connection.isValid(100));
     }
 }
