@@ -8,3 +8,7 @@ A management system base on JavaFX, MySQL.
 
 ### Database schema
 ![database_schema](src/assets/database_uml.svg)
+
+### Features
+#### Login
+[<img align="center" src="src/assets/login_pane.png"/>][login]
