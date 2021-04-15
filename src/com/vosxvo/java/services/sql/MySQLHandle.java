@@ -25,7 +25,6 @@ public class MySQLHandle {
         this.database = database;
         this.username = username;
         this.password = password;
-        disconnect();
         connect();
     }
 
@@ -35,7 +34,6 @@ public class MySQLHandle {
 
     public void setDatabase(String database) throws SQLException {
         this.database = database;
-        disconnect();
         connect();
     }
 
@@ -59,7 +57,7 @@ public class MySQLHandle {
     }
 
     public void disconnect() throws SQLException {
-        if (connection != null) return;
+        if (connection == null) return;
         connection.close();
     }
 }
