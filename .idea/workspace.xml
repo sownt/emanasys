@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6cd4db2d-711c-4931-a953-5f1dfb704f6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/file/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/services/file/Configuration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
     <property name="project.structure.side.proportion" value="0.23626375" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
-  <component name="RunManager" selected="Application.Configuration">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Configuration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vosxvo.java.services.file.Configuration" />
       <module name="employee-management-system" />
@@ -94,13 +96,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,8 +116,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Configuration" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Configuration" />
         <item itemvalue="Application.LoginController" />
       </list>
     </recent_temporary>
@@ -133,6 +137,7 @@
       <workItem from="1618487699232" duration="2290000" />
       <workItem from="1618490080166" duration="3125000" />
       <workItem from="1618493210868" duration="298000" />
+      <workItem from="1618674116864" duration="1210000" />
     </task>
     <servers />
   </component>
@@ -149,6 +154,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

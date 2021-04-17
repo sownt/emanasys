@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class Configuration {
-    private static final String CONFIGURATION_FILE = System.getProperty("user.home") + "/.employee-management-system/setup.conf";
+    public static final String CONFIGURATION_FILE = System.getProperty("user.home") + "/.employee-management-system/setup.conf";
     public static Properties load() throws IOException {
         File file = new File(CONFIGURATION_FILE);
 
