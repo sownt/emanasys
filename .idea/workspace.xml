@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6cd4db2d-711c-4931-a953-5f1dfb704f6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/file/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/services/file/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/DatabaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/DatabaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/database.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/res/views/database.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,41 +82,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vosxvo.java.controllers.Main" />
-      <module name="employee-management-system" />
-      <option name="VM_PARAMETERS" value="--module-path /opt/jdk/javafx-sdk-16/lib/ --add-modules javafx.controls,javafx.fxml --add-exports javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vosxvo.java.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.LoginController" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.LoginController" />
       <item itemvalue="Application.Configuration" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Configuration" />
         <item itemvalue="Application.LoginController" />
       </list>
@@ -137,7 +109,9 @@
       <workItem from="1618487699232" duration="2290000" />
       <workItem from="1618490080166" duration="3125000" />
       <workItem from="1618493210868" duration="298000" />
-      <workItem from="1618674116864" duration="1210000" />
+      <workItem from="1618674116864" duration="1638000" />
+      <workItem from="1618675761062" duration="559000" />
+      <workItem from="1618759119441" duration="3358000" />
     </task>
     <servers />
   </component>

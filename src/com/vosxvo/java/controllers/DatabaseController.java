@@ -1,5 +1,6 @@
 package com.vosxvo.java.controllers;
 
+import com.vosxvo.java.services.database.MySQLServices;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -28,13 +29,29 @@ public class DatabaseController {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         stage.setTitle("Employee Manager - Database Initialize");
         stage.setScene(scene);
         stage.show();
     }
 
-    public void onDatabaseChanged(KeyEvent keyEvent) {
+    private void setDbURL(String host, String port, String database) {
+        if (host.equals(""))
+            throw new IllegalArgumentException();
+        else if (port.equals("") && database.equals(""))
+            dbURL.setText(String.format("%s%s", MySQLServices.MYSQL_PROTOCOL, host));
+        else if (database.equals(""))
+            dbURL.setText(String.format("%s%s:%d", MySQLServices.MYSQL_PROTOCOL, host, Integer.parseInt(port)));
+        else if (port.equals(""))
+            dbURL.setText(String.format("%s%s/%s", MySQLServices.MYSQL_PROTOCOL, host, database));
+        else
+            dbURL.setText(String.format("%s%s:%d/%s", MySQLServices.MYSQL_PROTOCOL, host, Integer.parseInt(port), database));
+    }
+
+    public void onChanged(KeyEvent keyEvent) {
+        Object source = keyEvent.getSource();
+        if (source.equals(dbHost) || source.equals(dbPort) || source.equals(db)) {
+            setDbURL(dbHost.getText(), dbPort.getText(), db.getText());
+        }
     }
 
     public void connectToDatabase(MouseEvent mouseEvent) {
