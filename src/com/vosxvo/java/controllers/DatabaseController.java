@@ -1,6 +1,7 @@
 package com.vosxvo.java.controllers;
 
 import com.vosxvo.java.services.database.MySQLServices;
+import com.vosxvo.java.services.file.Configuration;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -11,6 +12,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Properties;
 
 public class DatabaseController {
     public TextField dbName;
@@ -21,8 +23,10 @@ public class DatabaseController {
     public TextField db;
     public TextField dbURL;
     public Button dbConnect;
+    public static Stage stage;
 
     public static void show(Stage stage) {
+        DatabaseController.stage = stage;
         Scene scene = null;
         try {
             scene = new Scene(FXMLLoader.load(DatabaseController.class.getResource("../../res/views/database.fxml")));
@@ -55,5 +59,15 @@ public class DatabaseController {
     }
 
     public void connectToDatabase(MouseEvent mouseEvent) {
+        Properties props = new Properties();
+        props.setProperty("host", dbHost.getText());
+        props.setProperty("port", dbPort.getText());
+        props.setProperty("database", db.getText());
+        try {
+            Configuration.save(props);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        LoginController.show(DatabaseController.stage);
     }
 }

@@ -4,7 +4,6 @@
     <list default="true" id="6cd4db2d-711c-4931-a953-5f1dfb704f6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/DatabaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/DatabaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/database.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/res/views/database.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,7 @@
       <workItem from="1618493210868" duration="298000" />
       <workItem from="1618674116864" duration="1638000" />
       <workItem from="1618675761062" duration="559000" />
-      <workItem from="1618759119441" duration="3358000" />
+      <workItem from="1618759119441" duration="4336000" />
     </task>
     <servers />
   </component>
