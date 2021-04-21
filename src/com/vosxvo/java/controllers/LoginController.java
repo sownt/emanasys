@@ -32,7 +32,7 @@ public class LoginController {
             e.printStackTrace();
         }
 
-        stage.setTitle("Employee Manager - Login");
+        stage.setTitle("c");
         stage.setScene(scene);
         stage.show();
     }

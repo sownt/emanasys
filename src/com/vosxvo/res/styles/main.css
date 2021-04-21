@@ -1,0 +1,25 @@
+.sidebar {
+    -fx-background-color: -fx-background;
+}
+.sidebar-items {
+    -fx-background-color: -fx-background;
+    -fx-border-color: -fx-background;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+.sidebar-items:hover {
+    -fx-underline: true;
+}
+.sidebar-current {
+    -fx-background-color: -fx-background;
+    -fx-background-radius: 30px;
+    -fx-border-color: cornflowerblue;
+    -fx-border-width: 3px;
+    -fx-border-radius: 30px;
+    -fx-text-fill: cornflowerblue;
+    -fx-font-weight: bold;
+}
+.topbar {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+}
