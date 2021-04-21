@@ -9,7 +9,7 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vosxvo.java.controllers.HomePageController">
     <left>
-        <VBox alignment="CENTER" prefWidth="250.0" styleClass="sidebar" stylesheets="@../styles/main.css" BorderPane.alignment="TOP_LEFT">
+        <VBox alignment="CENTER" prefWidth="300.0" styleClass="sidebar" stylesheets="@../styles/main.css" BorderPane.alignment="TOP_LEFT">
             <children>
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <VBox.margin>
@@ -19,35 +19,35 @@
                   <Image url="@../images/logo256.png" />
                </image>
             </ImageView>
-                <Button fx:id="dashboard" mnemonicParsing="false" prefHeight="60.0" prefWidth="400.0" styleClass="sidebar-current" stylesheets="@../styles/main.css" text="DASHBOARD">
+                <Button fx:id="dashboard" mnemonicParsing="false" prefHeight="60.0" prefWidth="300.0" styleClass="sidebar-current" stylesheets="@../styles/main.css" text="DASHBOARD">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
                <VBox.margin>
-                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                  <Insets />
                </VBox.margin></Button>
-                <Button fx:id="activities" mnemonicParsing="false" prefHeight="60.0" prefWidth="400.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="ACTIVITIES">
+                <Button fx:id="activities" mnemonicParsing="false" prefHeight="60.0" prefWidth="300.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="ACTIVITIES">
                <VBox.margin>
-                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                  <Insets />
                </VBox.margin></Button>
-                <Button fx:id="issues" mnemonicParsing="false" prefHeight="60.0" prefWidth="400.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="ISSUES">
+                <Button fx:id="issues" mnemonicParsing="false" prefHeight="60.0" prefWidth="300.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="ISSUES">
                <VBox.margin>
-                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                  <Insets />
                </VBox.margin></Button>
-                <Button fx:id="projects" mnemonicParsing="false" prefHeight="60.0" prefWidth="400.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="PROJECTS">
+                <Button fx:id="projects" mnemonicParsing="false" prefHeight="60.0" prefWidth="300.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="PROJECTS">
                <VBox.margin>
-                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                  <Insets />
                </VBox.margin></Button>
-                <Button fx:id="users" mnemonicParsing="false" onMouseClicked="#onMouseClickedListener" prefHeight="60.0" prefWidth="400.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="USERS">
+                <Button fx:id="manage" mnemonicParsing="false" onMouseClicked="#onMouseClickedListener" prefHeight="60.0" prefWidth="300.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="MANAGE">
                <VBox.margin>
-                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                  <Insets />
                </VBox.margin></Button>
             </children>
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
          <BorderPane.margin>
-            <Insets left="20.0" right="20.0" />
+            <Insets />
          </BorderPane.margin></VBox>
     </left>
 </BorderPane>

@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="6cd4db2d-711c-4931-a953-5f1dfb704f6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/HomePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/res/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_activities.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_activities.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_issues.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_issues.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_projects.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_projects.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_users.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_users.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,19 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.LoginController" />
@@ -127,7 +119,9 @@
       <workItem from="1618759119441" duration="4407000" />
       <workItem from="1618840102334" duration="6000" />
       <workItem from="1618912364703" duration="2089000" />
-      <workItem from="1618981021780" duration="8059000" />
+      <workItem from="1618981021780" duration="12581000" />
+      <workItem from="1619012632098" duration="2477000" />
+      <workItem from="1619017889155" duration="1054000" />
     </task>
     <servers />
   </component>
@@ -145,25 +139,6 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/vosxvo/java/controllers/HomePageController.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/vosxvo/java/controllers/HomePageController.java</url>
-          <line>41</line>
-          <properties class="com.vosxvo.java.controllers.HomePageController" method="onMouseClickedListener">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -3,6 +3,7 @@ package com.vosxvo.java.controllers;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.TableView;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
@@ -13,7 +14,8 @@ public class HomePageController {
     public Button activities;
     public Button issues;
     public Button projects;
-    public Button users;
+    public Button manage;
+    public TableView table;
 
     public static void show(Stage stage) {
         Scene scene = null;
@@ -27,25 +29,24 @@ public class HomePageController {
         stage.show();
     }
 
-    private void showUsers(Stage stage) {
+    private void show(Stage stage, String res, String tittle) {
         Scene scene = null;
         try {
-            scene = new Scene(FXMLLoader.load(HomePageController.class.getResource("../../res/views/home_users.fxml")));
+            scene = new Scene(FXMLLoader.load(HomePageController.class.getResource(res)));
         } catch (IOException e) {
             e.printStackTrace();
         }
-        stage.setTitle("Employee Manager - Users");
+        stage.setTitle(tittle);
         stage.setScene(scene);
         stage.show();
     }
 
     public void onMouseClickedListener(MouseEvent mouseEvent) {
-        System.out.println("Mouse");
         Object source = mouseEvent.getSource();
-        Stage current = (Stage) users.getScene().getWindow();
+        Stage current = (Stage) manage.getScene().getWindow();
         if (source == null) return;
-        if (source.equals(users)) {
-            showUsers(current);
+        if (source.equals(manage)) {
+            show(current, "../../res/views/home_manage.fxml", "Employee Manager - Manage");
         }
     }
 }

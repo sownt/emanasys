@@ -1,9 +1,12 @@
 .sidebar {
-    -fx-background-color: -fx-background;
+    -fx-background-color: white;
+    -fx-border-color: transparent lightgray transparent transparent;
+    -fx-border-radius: 0;
+    -fx-border-width: 3px;
 }
 .sidebar-items {
-    -fx-background-color: -fx-background;
-    -fx-border-color: -fx-background;
+    -fx-background-color: white;
+    -fx-border-color: white;
     -fx-text-fill: black;
     -fx-font-weight: bold;
 }
@@ -11,15 +14,63 @@
     -fx-underline: true;
 }
 .sidebar-current {
-    -fx-background-color: -fx-background;
-    -fx-background-radius: 30px;
-    -fx-border-color: cornflowerblue;
-    -fx-border-width: 3px;
-    -fx-border-radius: 30px;
-    -fx-text-fill: cornflowerblue;
+    -fx-background-color: black;
+    -fx-background-radius: 0px;
+    -fx-border-color: black;
+    -fx-border-width: 0px;
+    -fx-border-radius: 0px;
+    -fx-text-fill: white;
     -fx-font-weight: bold;
 }
 .topbar {
     -fx-background-color: white;
+    -fx-background-radius: 10px;
+}
+.searchbar {
+    -fx-background-color: -fx-text-box-border, white ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 0 ;
+    -fx-font-size: 15px;
+    -fx-text-fill: black;
+}
+.search {
+    -fx-background-color: white;
+    -fx-border-color: white;
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+.content {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+}
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: white;
+    -fx-table-header-border-color: -fx-background;
+    -fx-table-cell-border-color: -fx-box-border;
+}
+.table-view .column-header {
+    -fx-background-color: cornflowerblue;
+    -fx-border-color: white;
+}
+.manage_employees {
+    -fx-background-color: #17a2b8;
+    -fx-background-radius: 10px;
+}
+.manage_users {
+    -fx-background-color: #3B76EF;
+    -fx-background-radius: 10px;
+}
+.manage_salary {
+    -fx-background-color: #6f42c1;
+    -fx-background-radius: 10px;
+}
+.manage_department {
+    -fx-background-color: #20c997;
+    -fx-background-radius: 10px;
+}
+.manage_manager {
+    -fx-background-color: #fd7e14;
     -fx-background-radius: 10px;
 }
