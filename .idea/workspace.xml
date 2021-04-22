@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6cd4db2d-711c-4931-a953-5f1dfb704f6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/HomePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/ManageEmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/ManageEmployeeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/res/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_activities.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_issues.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_manage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_manage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_projects.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_users.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/manage_employees.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/res/views/manage_employees.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,17 +83,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.LoginController" />
@@ -135,7 +119,8 @@
       <workItem from="1619012632098" duration="2477000" />
       <workItem from="1619017889155" duration="1875000" />
       <workItem from="1619021294980" duration="115000" />
-      <workItem from="1619077915233" duration="8222000" />
+      <workItem from="1619077915233" duration="8846000" />
+      <workItem from="1619087130347" duration="1417000" />
     </task>
     <servers />
   </component>

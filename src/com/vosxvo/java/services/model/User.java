@@ -4,7 +4,6 @@ import java.util.Date;
 
 public class User {
     private int id;
-    private String username;
     private String firstName;
     private String lastName;
     private Date birthday;
@@ -12,9 +11,8 @@ public class User {
     private Date hiredDate;
     private String department;
 
-    public User(int id, String username, String firstName, String lastName, Date birthday, String gender, Date hiredDate, String department) {
+    public User(int id, String firstName, String lastName, Date birthday, String gender, Date hiredDate, String department) {
         this.id = id;
-        this.username = username;
         this.firstName = firstName;
         this.lastName = lastName;
         this.birthday = birthday;
@@ -25,10 +23,6 @@ public class User {
 
     public int getId() {
         return id;
-    }
-
-    public String getUsername() {
-        return username;
     }
 
     public String getFirstName() {

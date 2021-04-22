@@ -63,13 +63,12 @@
                   <TableView fx:id="table" prefHeight="650.0" prefWidth="1100.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <columns>
                       <TableColumn fx:id="id" maxWidth="100.0" minWidth="75.0" prefWidth="100.0" resizable="false" text="ID" />
-                        <TableColumn fx:id="username" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" resizable="false" text="USERNAME" />
-                      <TableColumn fx:id="firstName" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" resizable="false" text="FIRST NAME" />
-                        <TableColumn fx:id="lastName" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" resizable="false" text="LAST NAME" />
+                      <TableColumn fx:id="firstName" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" resizable="false" text="FIRST NAME" />
+                        <TableColumn fx:id="lastName" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" resizable="false" text="LAST NAME" />
                         <TableColumn fx:id="birthday" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" resizable="false" text="BIRTHDAY" />
                         <TableColumn fx:id="gender" maxWidth="100.0" minWidth="100.0" prefWidth="100.0" resizable="false" text="GENDER" />
                         <TableColumn fx:id="hiredDate" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" resizable="false" text="HIRED DATE" />
-                        <TableColumn fx:id="department" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" resizable="false" text="DEPARTMENT" />
+                        <TableColumn fx:id="department" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" resizable="false" text="DEPARTMENT" />
                     </columns>
                   </TableView>
                </children>
