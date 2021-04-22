@@ -22,4 +22,36 @@ public class User {
         this.hiredDate = hiredDate;
         this.department = department;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public Date getBirthday() {
+        return birthday;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public Date getHiredDate() {
+        return hiredDate;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
 }

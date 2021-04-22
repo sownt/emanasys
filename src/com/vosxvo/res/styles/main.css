@@ -42,8 +42,9 @@
 }
 .content {
     -fx-background-color: white;
-    -fx-background-radius: 10px;
+    -fx-background-radius: 0px;
 }
+
 .table-view {
     -fx-background-color: white;
     -fx-border-color: white;
@@ -54,23 +55,87 @@
     -fx-background-color: cornflowerblue;
     -fx-border-color: white;
 }
+.table-view .cell {
+    -fx-border-color: transparent;
+    -fx-alignment: center;
+}
+.table-view .scroll-bar * {
+    -fx-min-width: 0;
+    -fx-pref-width: 0;
+    -fx-max-width: 0;
+
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+
 .manage_employees {
-    -fx-background-color: #17a2b8;
+    -fx-background-color: #00b2cb;
     -fx-background-radius: 10px;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+}
+.manage_employees:hover {
+    -fx-background-color: #028697;
+    -fx-background-radius: 10px;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
 }
 .manage_users {
-    -fx-background-color: #3B76EF;
+    -fx-background-color: #0057db;
     -fx-background-radius: 10px;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+}
+.manage_users:hover {
+    -fx-background-color: #003ea1;
+    -fx-background-radius: 10px;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
 }
 .manage_salary {
     -fx-background-color: #6f42c1;
     -fx-background-radius: 10px;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+}
+.manage_salary:hover {
+    -fx-background-color: #573497;
+    -fx-background-radius: 10px;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
 }
 .manage_department {
-    -fx-background-color: #20c997;
+    -fx-background-color: #00c68f;
     -fx-background-radius: 10px;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+}
+.manage_department:hover {
+    -fx-background-color: #007d5a;
+    -fx-background-radius: 10px;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
 }
 .manage_manager {
-    -fx-background-color: #fd7e14;
+    -fx-background-color: #ff7700;
     -fx-background-radius: 10px;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+}
+.manage_manager:hover {
+    -fx-background-color: #bf5600;
+    -fx-background-radius: 10px;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
 }

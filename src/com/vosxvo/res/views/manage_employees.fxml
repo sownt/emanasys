@@ -2,12 +2,15 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vosxvo.java.controllers.HomeManageController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vosxvo.java.controllers.ManageEmployeeController">
     <left>
         <VBox alignment="CENTER" prefWidth="300.0" styleClass="sidebar" stylesheets="@../styles/main.css" BorderPane.alignment="TOP_LEFT">
             <children>
@@ -42,7 +45,7 @@
                     <VBox.margin>
                         <Insets />
                     </VBox.margin></Button>
-            <Button fx:id="manage1" mnemonicParsing="false" onMouseClicked="#onMouseClickedListener" prefHeight="60.0" prefWidth="300.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="BACK" />
+                <Button fx:id="manage1" mnemonicParsing="false" onMouseClicked="#onMouseClickedListener" prefHeight="60.0" prefWidth="300.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="BACK" />
             </children>
             <opaqueInsets>
                 <Insets />
@@ -51,4 +54,27 @@
                 <Insets />
             </BorderPane.margin></VBox>
     </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane prefHeight="100.0" prefWidth="1100.0" styleClass="topbar" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="50.0" />
+            <AnchorPane prefHeight="650.0" prefWidth="1100.0" styleClass="content" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="200.0">
+               <children>
+                  <TableView fx:id="table" prefHeight="650.0" prefWidth="1100.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="id" maxWidth="100.0" minWidth="75.0" prefWidth="100.0" resizable="false" text="ID" />
+                        <TableColumn fx:id="username" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" resizable="false" text="USERNAME" />
+                      <TableColumn fx:id="firstName" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" resizable="false" text="FIRST NAME" />
+                        <TableColumn fx:id="lastName" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" resizable="false" text="LAST NAME" />
+                        <TableColumn fx:id="birthday" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" resizable="false" text="BIRTHDAY" />
+                        <TableColumn fx:id="gender" maxWidth="100.0" minWidth="100.0" prefWidth="100.0" resizable="false" text="GENDER" />
+                        <TableColumn fx:id="hiredDate" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" resizable="false" text="HIRED DATE" />
+                        <TableColumn fx:id="department" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" resizable="false" text="DEPARTMENT" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
 </BorderPane>

@@ -3,7 +3,6 @@ package com.vosxvo.java.controllers;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.TableView;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
@@ -15,7 +14,6 @@ public class HomePageController {
     public Button issues;
     public Button projects;
     public Button manage;
-    public TableView table;
 
     public static void show(Stage stage) {
         Scene scene = null;
@@ -46,7 +44,7 @@ public class HomePageController {
         Stage current = (Stage) manage.getScene().getWindow();
         if (source == null) return;
         if (source.equals(manage)) {
-            show(current, "../../res/views/home_manage.fxml", "Employee Manager - Manage");
+            show(current, "../../res/views/manage_employees.fxml", "Employee Manager - Manage");
         }
     }
 }
