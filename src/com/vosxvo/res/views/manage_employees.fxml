@@ -4,6 +4,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -57,7 +58,19 @@
    <center>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <AnchorPane prefHeight="100.0" prefWidth="1100.0" styleClass="topbar" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="50.0" />
+            <AnchorPane prefHeight="100.0" prefWidth="1100.0" styleClass="topbar" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="50.0">
+               <children>
+                  <TextField prefHeight="44.0" prefWidth="582.0" promptText="Search here..." styleClass="searchbar" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="28.0" />
+                  <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" styleClass="search-button" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="34.0" AnchorPane.topAnchor="30.0">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/icons8-search-144.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children></AnchorPane>
             <AnchorPane prefHeight="650.0" prefWidth="1100.0" styleClass="content" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="200.0">
                <children>
                   <TableView fx:id="table" prefHeight="650.0" prefWidth="1100.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">

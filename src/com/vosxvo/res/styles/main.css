@@ -28,10 +28,19 @@
 }
 .searchbar {
     -fx-background-color: -fx-text-box-border, white ;
-    -fx-background-insets: 0, 0 0 1 0 ;
-    -fx-background-radius: 0 ;
+    /*-fx-background-insets: 0, 0 1 1 0 ;*/
+    -fx-background-radius: 22px;
+    -fx-padding: 10 20 10 50;
     -fx-font-size: 15px;
     -fx-text-fill: black;
+}
+.search-button {
+    -fx-background-color: transparent;
+    -fx-opacity: 0.4;
+}
+.search-button:hover {
+    -fx-background-color: transparent;
+    -fx-opacity: 1;
 }
 .search {
     -fx-background-color: white;
