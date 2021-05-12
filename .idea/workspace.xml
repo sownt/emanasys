@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cd4db2d-711c-4931-a953-5f1dfb704f6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/library.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/res/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/manage_employees.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/res/views/manage_employees.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-management-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-management-system.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="/opt/jdk/library/mysql-connector-java-8.0.23.jar" />
+    <property name="last_opened_file_path" value="/opt/java/javafx-sdk-16/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -78,6 +82,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,7 +136,10 @@
       <workItem from="1619077915233" duration="8846000" />
       <workItem from="1619087130347" duration="1978000" />
       <workItem from="1619092044153" duration="1214000" />
-      <workItem from="1619154951186" duration="2503000" />
+      <workItem from="1619154951186" duration="2934000" />
+      <workItem from="1620309634914" duration="826000" />
+      <workItem from="1620694862935" duration="364000" />
+      <workItem from="1620825524685" duration="2138000" />
     </task>
     <servers />
   </component>
