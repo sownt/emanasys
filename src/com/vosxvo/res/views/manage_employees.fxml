@@ -60,12 +60,71 @@
          <children>
             <AnchorPane prefHeight="100.0" prefWidth="1100.0" styleClass="topbar" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="50.0">
                <children>
+                  <TextField layoutX="10.0" layoutY="10.0" prefHeight="44.0" prefWidth="135.0" promptText="GO TO" styleClass="go_to" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="930.0" AnchorPane.topAnchor="28.0">
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </TextField>
+                  <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" styleClass="navigation" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="936.0" AnchorPane.topAnchor="30.0">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/outline_check_black_48dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="20.0" layoutY="20.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" styleClass="navigation" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="870.0" AnchorPane.topAnchor="28.0">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/outline_edit_black_48dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="20.0" layoutY="20.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" styleClass="navigation" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="810.0" AnchorPane.topAnchor="30.0">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/outline_last_page_black_48dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="20.0" layoutY="20.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" styleClass="navigation" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="750.0" AnchorPane.topAnchor="30.0">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/outline_keyboard_arrow_right_black_48dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" styleClass="navigation" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="690.0" AnchorPane.topAnchor="30.0">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/outline_keyboard_arrow_left_black_48dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" styleClass="navigation" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="630.0" AnchorPane.topAnchor="30.0">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/outline_first_page_black_48dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
                   <TextField prefHeight="44.0" prefWidth="582.0" promptText="Search here..." styleClass="searchbar" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="28.0" />
                   <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" styleClass="search-button" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="34.0" AnchorPane.topAnchor="30.0">
                      <graphic>
                         <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../images/icons8-search-144.png" />
+                              <Image url="@../icons/outline_search_black_48dp.png" />
                            </image>
                         </ImageView>
                      </graphic>
