@@ -1,11 +1,7 @@
 package com.vosxvo.java.controllers;
 
 import com.vosxvo.java.services.model.Employee;
-import com.vosxvo.java.services.sql.MySQLHandle;
-import com.vosxvo.java.services.thread.EmployeeData;
 import com.vosxvo.java.services.thread.SQLThread;
-import com.vosxvo.java.services.thread.ThreadHandle;
-import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -15,14 +11,10 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 
 import java.net.URL;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.Date;
 import java.util.ResourceBundle;
 
-public class ManageEmployeeController implements Initializable {
+public class ManageEmployeeController implements Initializable, Controller {
     @FXML
     private TableView<Employee> table;
 
@@ -64,7 +56,10 @@ public class ManageEmployeeController implements Initializable {
         table.setItems(thread.getList());
     }
 
-    public void update(ObservableList list) {
-        table.setItems(list);
+    @Override
+    public void update(Object o) {
+        if (o instanceof ObservableList) {
+            table.setItems((ObservableList<Employee>) o);
+        }
     }
 }
