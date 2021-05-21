@@ -1,7 +1,10 @@
 package com.vosxvo.java.controllers;
 
-import com.vosxvo.java.services.model.User;
+import com.vosxvo.java.services.model.Employee;
 import com.vosxvo.java.services.sql.MySQLHandle;
+import com.vosxvo.java.services.thread.EmployeeData;
+import com.vosxvo.java.services.thread.SQLThread;
+import com.vosxvo.java.services.thread.ThreadHandle;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -21,85 +24,47 @@ import java.util.ResourceBundle;
 
 public class ManageEmployeeController implements Initializable {
     @FXML
-    private TableView<User> table;
+    private TableView<Employee> table;
 
     @FXML
-    private TableColumn<User, Integer> id;
+    private TableColumn<Employee, Integer> id;
 
     @FXML
-    private TableColumn<User, String> firstName;
+    private TableColumn<Employee, String> firstName;
 
     @FXML
-    private TableColumn<User, String> lastName;
+    private TableColumn<Employee, String> lastName;
 
     @FXML
-    private TableColumn<User, Date> birthday;
+    private TableColumn<Employee, Date> birthday;
 
     @FXML
-    private TableColumn<User, String> gender;
+    private TableColumn<Employee, String> gender;
 
     @FXML
-    private TableColumn<User, Date> hiredDate;
+    private TableColumn<Employee, Date> hiredDate;
 
     @FXML
-    private TableColumn<User, String> department;
+    private TableColumn<Employee, String> department;
 
     public void onMouseClickedListener(MouseEvent mouseEvent) {
-    }
-
-    public ObservableList<User> getData(int from, int to) {
-        Connection connection = null;
-        Statement statement = null;
-        ObservableList<User> list = FXCollections.observableArrayList();
-        try {
-            MySQLHandle handle = new MySQLHandle("172.17.0.2", "vo", "root", "010118");
-            connection = handle.getConnection();
-            statement = connection.createStatement();
-            ResultSet sets = statement.executeQuery(String.format("SELECT `id`, `first_name`, `last_name`, `birthday`, `gender`, `hire_date`, `department` FROM `vo`.`vo_employee` LIMIT %d OFFSET %d;", from + to, from));
-//            ResultSet sets = statement.executeQuery("SELECT `id`, `first_name`, `last_name`, `birthday`, `gender`, `hire_date`, `department` FROM `vo`.`vo_employee`;");
-            if (sets == null) return null;
-            while (sets.next()) {
-                int id = sets.getInt(1);
-                String firstName = sets.getString(2);
-                String lastName = sets.getString(3);
-                java.sql.Date birthday = sets.getDate(4);
-                String gender = sets.getString(5);
-                java.sql.Date hiredDate = sets.getDate(6);
-                String department = sets.getString(7);
-                list.add(new User(id, firstName, lastName, birthday, gender, hiredDate, department));
-            }
-            sets.close();
-        } catch (SQLException exception) {
-            exception.printStackTrace();
-        } finally {
-            if (statement != null) {
-                try {
-                    statement.close();
-                } catch (SQLException exception) {
-                    exception.printStackTrace();
-                }
-            }
-            if (connection != null) {
-                try {
-                    connection.close();
-                } catch (SQLException exception) {
-                    exception.printStackTrace();
-                }
-            }
-        }
-        return list;
     }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         id.setCellValueFactory(new PropertyValueFactory<>("Id"));
-//        username.setCellValueFactory(new PropertyValueFactory<>("Username"));
         firstName.setCellValueFactory(new PropertyValueFactory<>("FirstName"));
         lastName.setCellValueFactory(new PropertyValueFactory<>("LastName"));
         birthday.setCellValueFactory(new PropertyValueFactory<>("Birthday"));
         gender.setCellValueFactory(new PropertyValueFactory<>("Gender"));
         hiredDate.setCellValueFactory(new PropertyValueFactory<>("HiredDate"));
         department.setCellValueFactory(new PropertyValueFactory<>("Department"));
-        table.setItems(getData(0, 10));
+        SQLThread thread = new SQLThread(this);
+        thread.start();
+        table.setItems(thread.getList());
+    }
+
+    public void update(ObservableList list) {
+        table.setItems(list);
     }
 }

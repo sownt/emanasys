@@ -3,15 +3,21 @@ package com.vosxvo.java.services.thread;
 import java.util.HashMap;
 
 public class ThreadHandle {
-    private HashMap<String ,Thread> threads;
-    private static final ThreadHandle INSTANCE = new ThreadHandle();
+    private static HashMap<String, Thread> threads;
+    private static volatile ThreadHandle INSTANCE;
 
-    private ThreadHandle() {
-        threads = new HashMap<>();
-    }
+    private ThreadHandle() {}
 
     public static ThreadHandle getInstance() {
-        return ThreadHandle.INSTANCE;
+        if (INSTANCE == null) {
+            synchronized (ThreadHandle.class) {
+                if (INSTANCE == null) {
+                    INSTANCE = new ThreadHandle();
+                    threads = new HashMap<>();
+                }
+            }
+        }
+        return INSTANCE;
     }
 
     public void create(String title, Runnable runnable) {
@@ -20,12 +26,12 @@ public class ThreadHandle {
 
     public void run(String title) {
         Thread thread = threads.get(title);
-        thread.run();
+        thread.start();
     }
 
     public void run(String title, Runnable runnable) {
         Thread thread = new Thread(runnable);
         threads.put(title, thread);
-        thread.run();
+        thread.start();
     }
 }
