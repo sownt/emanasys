@@ -23,10 +23,10 @@ public class DatabaseController {
     public TextField db;
     public TextField dbURL;
     public Button dbConnect;
-    public static Stage stage;
+    public static Stage current;
 
     public static void show(Stage stage) {
-        DatabaseController.stage = stage;
+        DatabaseController.current = stage;
         Scene scene = null;
         try {
             scene = new Scene(FXMLLoader.load(DatabaseController.class.getResource("../../res/views/database.fxml")));
@@ -63,11 +63,13 @@ public class DatabaseController {
         props.setProperty("host", dbHost.getText());
         props.setProperty("port", dbPort.getText());
         props.setProperty("database", db.getText());
+        props.setProperty("username", username.getText());
+        props.setProperty("password", password.getText());
         try {
             Configuration.save(props);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        LoginController.show(DatabaseController.stage);
+        LoginController.show(DatabaseController.current);
     }
 }

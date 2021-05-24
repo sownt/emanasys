@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cd4db2d-711c-4931-a953-5f1dfb704f6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8883340-4ce5-462f-abe7-c8f0f0d6b350.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b8883340-4ce5-462f-abe7-c8f0f0d6b350.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/ManageEmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/ManageEmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/thread/EmployeeData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/thread/ThreadHandle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/sql/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/res/sql/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/DatabaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/DatabaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/HomePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/ManageEmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/EmployeesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/sql/MySQLHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/services/sql/MySQLHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/thread/SQLThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_dashboard.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_manage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/manage_employees.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,16 +59,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
+    <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
     <property name="last_opened_file_path" value="/opt/java/mysql-connector-java-8.0.24.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.17489539" />
     <property name="project.structure.side.proportion" value="0.23626375" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Configuration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -87,13 +99,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,7 +161,8 @@
       <workItem from="1621328077533" duration="64000" />
       <workItem from="1621330645866" duration="3666000" />
       <workItem from="1621337051722" duration="5509000" />
-      <workItem from="1621398089436" duration="5672000" />
+      <workItem from="1621398089436" duration="13999000" />
+      <workItem from="1621765031831" duration="18190000" />
     </task>
     <servers />
   </component>

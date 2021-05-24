@@ -1,8 +1,7 @@
 package com.vosxvo.java.controllers;
 
+import com.vosxvo.java.services.file.Configuration;
 import com.vosxvo.java.services.sql.MySQLHandle;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -23,9 +22,11 @@ public class LoginController {
     public Button forgotPassword;
     public Button signIn;
     public Button createAccount;
+    public static Stage current;
 
     public static void show(Stage stage) {
         Scene scene = null;
+        LoginController.current = stage;
         try {
             scene = new Scene(FXMLLoader.load(LoginController.class.getResource("../../res/views/login.fxml")));
         } catch (IOException e) {
@@ -43,7 +44,8 @@ public class LoginController {
         Statement statement = null;
         boolean isValid = false;
         try {
-            MySQLHandle handle = new MySQLHandle("172.17.0.2", "vo", "root", "010118");
+//            MySQLHandle handle = new MySQLHandle("172.17.0.2", "vo", "root", "010118");
+            MySQLHandle handle = new MySQLHandle(Configuration.load());
             connection = handle.getConnection();
             statement = connection.createStatement();
             ResultSet crd = statement.executeQuery("SELECT users.username, users.password FROM users;");
@@ -52,7 +54,7 @@ public class LoginController {
                 isValid = (crd.getString("username").equals(username)) && (crd.getString("password").equals(password));
                 crd.close();
             }
-        } catch (SQLException exception) {
+        } catch (SQLException | IOException exception) {
             if (statement != null) {
                 try {
                     statement.close();
@@ -81,6 +83,7 @@ public class LoginController {
 
         if (isValidCrd(username, password)) {
             // TODO : Do somethings
+            HomePageController.show(LoginController.current);
             return true;
         }
         return false;
@@ -89,7 +92,7 @@ public class LoginController {
     public void setOnMouseClicked(MouseEvent mouseEvent) {
         Object source = mouseEvent.getSource();
         if (source.equals(signIn)) {
-            System.out.println(signIn());
+            signIn();
         }
     }
 }

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vosxvo.java.controllers.EmployeesController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="1100.0" styleClass="topbar" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <TextField layoutX="10.0" layoutY="10.0" prefHeight="44.0" prefWidth="135.0" promptText="GO TO" styleClass="go_to" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="930.0" AnchorPane.topAnchor="28.0">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </TextField>
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" styleClass="navigation" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="936.0" AnchorPane.topAnchor="30.0">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/outline_check_black_48dp.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="20.0" layoutY="20.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" styleClass="navigation" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="870.0" AnchorPane.topAnchor="28.0">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/outline_edit_black_48dp.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="20.0" layoutY="20.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" styleClass="navigation" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="810.0" AnchorPane.topAnchor="30.0">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/outline_last_page_black_48dp.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="20.0" layoutY="20.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" styleClass="navigation" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="750.0" AnchorPane.topAnchor="30.0">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/outline_keyboard_arrow_right_black_48dp.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" styleClass="navigation" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="690.0" AnchorPane.topAnchor="30.0">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/outline_keyboard_arrow_left_black_48dp.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" styleClass="navigation" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="630.0" AnchorPane.topAnchor="30.0">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/outline_first_page_black_48dp.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <TextField prefHeight="44.0" prefWidth="582.0" promptText="Search here..." styleClass="searchbar" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="28.0" />
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" styleClass="search-button" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="34.0" AnchorPane.topAnchor="30.0">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/outline_search_black_48dp.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="650.0" prefWidth="1100.0" styleClass="content" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="200.0">
+         <children>
+            <TableView fx:id="table" prefHeight="650.0" prefWidth="1100.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <columns>
+                  <TableColumn fx:id="id" maxWidth="100.0" minWidth="100.0" prefWidth="100.0" resizable="false" text="ID" />
+                  <TableColumn fx:id="firstName" maxWidth="250.0" minWidth="250.0" prefWidth="250.0" resizable="false" text="FIRST NAME" />
+                  <TableColumn fx:id="lastName" maxWidth="250.0" minWidth="250.0" prefWidth="250.0" resizable="false" text="LAST NAME" />
+                  <TableColumn fx:id="birthday" maxWidth="175.0" minWidth="175.0" prefWidth="175.0" resizable="false" text="BIRTHDAY" />
+                  <TableColumn fx:id="gender" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" resizable="false" text="GENDER" />
+                  <TableColumn fx:id="hiredDate" maxWidth="175.0" minWidth="175.0" prefWidth="175.0" resizable="false" text="HIRED DATE" />
+               </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

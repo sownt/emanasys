@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vosxvo.java.controllers.HomeManageController">
+<BorderPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vosxvo.java.controllers.HomePageController">
     <left>
         <VBox alignment="CENTER" prefWidth="300.0" styleClass="sidebar" stylesheets="@../styles/main.css" BorderPane.alignment="TOP_LEFT">
             <children>
@@ -19,30 +19,30 @@
                         <Image url="@../images/logo256.png" />
                     </image>
                 </ImageView>
-                <Button fx:id="dashboard" mnemonicParsing="false" prefHeight="60.0" prefWidth="300.0" styleClass="sidebar-current" stylesheets="@../styles/main.css" text="EMPLOYEES">
+                <Button fx:id="employees" mnemonicParsing="false" onMouseClicked="#onMouseClickedListener" prefHeight="60.0" prefWidth="300.0" styleClass="sidebar-current" stylesheets="@../styles/main.css" text="EMPLOYEES">
                     <opaqueInsets>
                         <Insets />
                     </opaqueInsets>
                     <VBox.margin>
                         <Insets />
                     </VBox.margin></Button>
-                <Button fx:id="activities" mnemonicParsing="false" prefHeight="60.0" prefWidth="300.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="USERS">
+                <Button fx:id="users" mnemonicParsing="false" onMouseClicked="#onMouseClickedListener" prefHeight="60.0" prefWidth="300.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="USERS">
                     <VBox.margin>
                         <Insets />
                     </VBox.margin></Button>
-                <Button fx:id="issues" mnemonicParsing="false" prefHeight="60.0" prefWidth="300.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="SALARY">
+                <Button fx:id="salaries" mnemonicParsing="false" onMouseClicked="#onMouseClickedListener" prefHeight="60.0" prefWidth="300.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="SALARIES">
                     <VBox.margin>
                         <Insets />
                     </VBox.margin></Button>
-                <Button fx:id="projects" mnemonicParsing="false" prefHeight="60.0" prefWidth="300.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="DEPARTMENT">
+                <Button fx:id="departments" mnemonicParsing="false" onMouseClicked="#onMouseClickedListener" prefHeight="60.0" prefWidth="300.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="DEPARTMENTS">
                     <VBox.margin>
                         <Insets />
                     </VBox.margin></Button>
-                <Button fx:id="manage" mnemonicParsing="false" onMouseClicked="#onMouseClickedListener" prefHeight="60.0" prefWidth="300.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="MANAGER">
+                <Button fx:id="titles" mnemonicParsing="false" onMouseClicked="#onMouseClickedListener" prefHeight="60.0" prefWidth="300.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="TITLES">
                     <VBox.margin>
                         <Insets />
                     </VBox.margin></Button>
-            <Button fx:id="manage1" mnemonicParsing="false" onMouseClicked="#onMouseClickedListener" prefHeight="60.0" prefWidth="300.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="BACK" />
+                <Button fx:id="logout" mnemonicParsing="false" onMouseClicked="#onMouseClickedListener" prefHeight="60.0" prefWidth="300.0" styleClass="sidebar-items" stylesheets="@../styles/main.css" text="LOG OUT" />
             </children>
             <opaqueInsets>
                 <Insets />

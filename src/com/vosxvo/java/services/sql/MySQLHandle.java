@@ -3,6 +3,7 @@ package com.vosxvo.java.services.sql;
 import com.vosxvo.java.services.database.*;
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.Properties;
 
 public class MySQLHandle {
     private String host;
@@ -25,6 +26,14 @@ public class MySQLHandle {
         this.database = database;
         this.username = username;
         this.password = password;
+        connect();
+    }
+
+    public MySQLHandle(Properties props) throws SQLException {
+        this.host = props.getProperty("host");
+        this.database = props.getProperty("database");
+        this.username = props.getProperty("username");
+        this.password = props.getProperty("password");
         connect();
     }
 

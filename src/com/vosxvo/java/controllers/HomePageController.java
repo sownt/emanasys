@@ -4,21 +4,29 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 
 public class HomePageController {
-    public Button dashboard;
-    public Button activities;
-    public Button issues;
-    public Button projects;
-    public Button manage;
+    public Button employees;
+    public Button users;
+    public Button salaries;
+    public Button departments;
+    public Button titles;
+    public Button logout;
+    public BorderPane mainPane;
+    public static Stage current;
 
     public static void show(Stage stage) {
         Scene scene = null;
+        current = stage;
+        BorderPane pane = null;
         try {
-            scene = new Scene(FXMLLoader.load(HomePageController.class.getResource("../../res/views/home_dashboard.fxml")));
+            scene = new Scene(FXMLLoader.load(HomePageController.class.getResource("../../res/views/homepage.fxml")));
+            pane = (BorderPane) scene.lookup("#mainPane");
+            pane.setCenter(FXMLLoader.load(HomePageController.class.getResource("../../res/views/employees_manage.fxml")));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -39,12 +47,22 @@ public class HomePageController {
         stage.show();
     }
 
-    public void onMouseClickedListener(MouseEvent mouseEvent) {
+    public void onMouseClickedListener(MouseEvent mouseEvent) throws IOException {
         Object source = mouseEvent.getSource();
-        Stage current = (Stage) manage.getScene().getWindow();
+        Stage current = (Stage) employees.getScene().getWindow();
         if (source == null) return;
-        if (source.equals(manage)) {
-            show(current, "../../res/views/manage_employees.fxml", "Employee Manager - Manage");
+        if (source.equals(employees)) {
+            mainPane.setCenter(FXMLLoader.load(HomePageController.class.getResource("../../res/views/employees_manage.fxml")));
+        } else if (source.equals(users)) {
+            mainPane.setCenter(FXMLLoader.load(HomePageController.class.getResource("../../res/views/users_manage.fxml")));
+        } else if (source.equals(salaries)) {
+            mainPane.setCenter(FXMLLoader.load(HomePageController.class.getResource("../../res/views/salaries_manage.fxml")));
+        } else if (source.equals(departments)) {
+            mainPane.setCenter(FXMLLoader.load(HomePageController.class.getResource("../../res/views/departments_manage.fxml")));
+        } else if (source.equals(titles)) {
+            mainPane.setCenter(FXMLLoader.load(HomePageController.class.getResource("../../res/views/titles_manage.fxml")));
+        } else if (source.equals(logout)) {
+            LoginController.show(HomePageController.current);
         }
     }
 }

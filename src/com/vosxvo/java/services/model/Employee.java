@@ -14,16 +14,14 @@ public class Employee {
     private Date birthday;
     private String gender;
     private Date hiredDate;
-    private String department;
 
-    public Employee(int id, String firstName, String lastName, Date birthday, String gender, Date hiredDate, String department) {
+    public Employee(int id, String firstName, String lastName, Date birthday, String gender, Date hiredDate) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.birthday = birthday;
         this.gender = gender;
         this.hiredDate = hiredDate;
-        this.department = department;
     }
 
     public int getId() {
@@ -50,10 +48,6 @@ public class Employee {
         return hiredDate;
     }
 
-    public String getDepartment() {
-        return department;
-    }
-
     public static ObservableList<Employee> extract(ResultSet sets) throws SQLException {
         if (sets == null) return null;
         ObservableList<Employee> list = FXCollections.observableArrayList();
@@ -65,8 +59,7 @@ public class Employee {
                 java.sql.Date birthday = sets.getDate(4);
                 String gender = sets.getString(5);
                 java.sql.Date hiredDate = sets.getDate(6);
-                String department = sets.getString(7);
-                list.add(new Employee(id, firstName, lastName, birthday, gender, hiredDate, department));
+                list.add(new Employee(id, firstName, lastName, birthday, gender, hiredDate));
             }
         } finally {
             sets.close();
