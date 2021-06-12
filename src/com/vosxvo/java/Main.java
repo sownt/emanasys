@@ -1,9 +1,9 @@
-package com.vosxvo.java.controllers;
+package com.vosxvo.java;
 
-import com.vosxvo.java.services.file.Configuration;
+import com.vosxvo.java.controllers.ControllerManage;
+import com.vosxvo.java.controllers.MainController;
 import javafx.application.Application;
 import javafx.stage.Stage;
-import java.io.File;
 
 /**
  *
@@ -20,19 +20,23 @@ import java.io.File;
  * /opt/java/javafx-sdk-16/lib/javafx.fxml.jar:/opt/java/javafx-sdk-16/lib/javafx.media.jar:
  * /opt/java/javafx-sdk-16/lib/javafx.swing.jar:/opt/java/javafx-sdk-16/lib/javafx.controls.jar:
  * /opt/java/javafx-sdk-16/lib/javafx.graphics.jar:/opt/java/jdk-15.0.2:
- * /opt/java/mysql-connector-java-8.0.24.jar com.vosxvo.java.controllers.Main
+ * /opt/java/mysql-connector-java-8.0.24.jar com.vosxvo.java.Main
  *
  */
 
 public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
-        File file = new File(Configuration.CONFIGURATION_FILE);
-        if (file.exists()) {
-            LoginController.show(stage);
-        } else {
-            DatabaseController.show(stage);
-        }
+        ControllerManage manage = ControllerManage.getInstance();
+        manage.setGlobal(stage);
+//        File file = new File(Configuration.CONFIGURATION_FILE);
+//        if (file.exists()) {
+//            LoginController.show(stage);
+//        } else {
+//            DatabaseController.show(stage);
+//        }
+
+        MainController.show(stage);
     }
 
     public static void main(String[] args) {

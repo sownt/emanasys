@@ -7,7 +7,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Date;
 
-public class Employee {
+public class Employee implements Model {
+    public static final String TABLE = "`employees`";
+    public static final String ATTRIBUTES = "`emp_no`, `first_name`, `last_name`, `birthday`, `gender`, `hire_date`";
+
     private int id;
     private String firstName;
     private String lastName;

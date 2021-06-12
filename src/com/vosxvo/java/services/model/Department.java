@@ -6,7 +6,10 @@ import javafx.collections.ObservableList;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class Department {
+public class Department implements Model {
+    public static final String TABLE = "`departments`";
+    public static final String ATTRIBUTES = "`dept_no`, `dept_name`";
+
     private int dept_no;
     private String dept_name;
 

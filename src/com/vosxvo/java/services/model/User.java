@@ -9,7 +9,10 @@ import java.security.NoSuchAlgorithmException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class User {
+public class User implements Model {
+    public static final String TABLE = "`users`";
+    public static final String ATTRIBUTES = "`emp_no`, `username`, `password`";
+
     private int id;
     private String username;
     private String password;

@@ -7,7 +7,10 @@ import java.sql.Date;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class Title {
+public class Title implements Model {
+    public static final String TABLE = "`titles`";
+    public static final String ATTRIBUTES = "`emp_no`, `title`, `from_date`, `to_date`";
+
     private int id;
     private String title;
     private Date from;

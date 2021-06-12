@@ -1,24 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="employee" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6cd4db2d-711c-4931-a953-5f1dfb704f6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JavaFXApp.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8883340-4ce5-462f-abe7-c8f0f0d6b350.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b8883340-4ce5-462f-abe7-c8f0f0d6b350.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/DatabaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/DatabaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/HomePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/DepartmentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/DepartmentsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/EmployeesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/EmployeesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/HomePageController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/ManageEmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/EmployeesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/SalariesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/SalariesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/TitlesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/TitlesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/Department.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/sql/MySQLHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/services/sql/MySQLHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/thread/SQLThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_dashboard.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/home_manage.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/manage_employees.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/Salary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/Salary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/Title.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/thread/DepartmentThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/thread/EmployeeThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/thread/SalaryThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/thread/TitleThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/thread/UserThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/res/styles/draft.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/departments_manage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/employees_manage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/homepage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vosxvo/res/views/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/salaries_manage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/titles_manage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/users_manage.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +49,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="module-info" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -61,7 +82,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
     <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
-    <property name="last_opened_file_path" value="/opt/java/mysql-connector-java-8.0.24.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../fxml/main.css" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -86,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vosxvo.java.controllers.LoginController" />
+    <configuration name="ControllerManage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vosxvo.java.controllers.ControllerManage" />
       <module name="employee-management-system" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vosxvo.java.controllers.*" />
+          <option name="PATTERN" value="com.vosxvo.java.controllers.Controller" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,15 +120,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="LoginController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vosxvo.java.controllers.LoginController" />
+      <module name="employee-management-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vosxvo.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,9 +148,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.LoginController" />
       <item itemvalue="Application.Configuration" />
+      <item itemvalue="Application.ControllerManage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ControllerManage" />
         <item itemvalue="Application.Configuration" />
         <item itemvalue="Application.LoginController" />
       </list>
@@ -162,7 +196,41 @@
       <workItem from="1621330645866" duration="3666000" />
       <workItem from="1621337051722" duration="5509000" />
       <workItem from="1621398089436" duration="13999000" />
-      <workItem from="1621765031831" duration="18190000" />
+      <workItem from="1621765031831" duration="25399000" />
+      <workItem from="1621840520017" duration="7721000" />
+      <workItem from="1621850839350" duration="12000" />
+      <workItem from="1621865531308" duration="10000" />
+      <workItem from="1621866671914" duration="16000" />
+      <workItem from="1621866727511" duration="7000" />
+      <workItem from="1621868015096" duration="12946000" />
+      <workItem from="1621995577875" duration="46000" />
+      <workItem from="1621995645478" duration="200000" />
+      <workItem from="1622003190229" duration="6000" />
+      <workItem from="1622010069816" duration="386000" />
+      <workItem from="1622011441017" duration="31000" />
+      <workItem from="1622011475340" duration="4805000" />
+      <workItem from="1622020444303" duration="2461000" />
+      <workItem from="1622034981326" duration="226000" />
+      <workItem from="1622035862419" duration="2125000" />
+      <workItem from="1622038179979" duration="1130000" />
+      <workItem from="1622040228475" duration="4000" />
+      <workItem from="1622078212880" duration="3104000" />
+      <workItem from="1622114157832" duration="3300000" />
+      <workItem from="1622203490079" duration="13840000" />
+      <workItem from="1622220950257" duration="9000" />
+      <workItem from="1622344626669" duration="2050000" />
+      <workItem from="1622383133953" duration="599000" />
+      <workItem from="1622424199609" duration="7895000" />
+      <workItem from="1622511397533" duration="5968000" />
+      <workItem from="1622681428346" duration="52000" />
+      <workItem from="1622681509623" duration="5821000" />
+      <workItem from="1622719805888" duration="4294000" />
+      <workItem from="1623065596671" duration="415000" />
+      <workItem from="1623144083149" duration="8193000" />
+      <workItem from="1623203945138" duration="2830000" />
+      <workItem from="1623326163290" duration="2839000" />
+      <workItem from="1623379218423" duration="5407000" />
+      <workItem from="1623498556362" duration="6000000" />
     </task>
     <servers />
   </component>

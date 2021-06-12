@@ -7,6 +7,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
@@ -28,12 +30,12 @@ public class LoginController {
         Scene scene = null;
         LoginController.current = stage;
         try {
-            scene = new Scene(FXMLLoader.load(LoginController.class.getResource("../../res/views/login.fxml")));
+            scene = new Scene(FXMLLoader.load(LoginController.class.getResource("/com/vosxvo/res/views/login.fxml")));
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        stage.setTitle("c");
+        stage.setTitle("Employee Manager - Login");
         stage.setScene(scene);
         stage.show();
     }
@@ -83,7 +85,7 @@ public class LoginController {
 
         if (isValidCrd(username, password)) {
             // TODO : Do somethings
-            HomePageController.show(LoginController.current);
+//            HomePageController.show(LoginController.current);
             return true;
         }
         return false;
@@ -92,6 +94,13 @@ public class LoginController {
     public void setOnMouseClicked(MouseEvent mouseEvent) {
         Object source = mouseEvent.getSource();
         if (source.equals(signIn)) {
+            signIn();
+        }
+    }
+
+
+    public void onEnterPressed(KeyEvent keyEvent) {
+        if (keyEvent.getCode().equals(KeyCode.ENTER)) {
             signIn();
         }
     }

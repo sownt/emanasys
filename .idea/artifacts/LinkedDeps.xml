@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="LinkedDeps">
+    <output-path>$PROJECT_DIR$/out/artifacts/LinkedDeps</output-path>
+    <root id="root">
+      <element id="archive" name="employee-management-system.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="employee-management-system" />
+      </element>
+      <element id="library" level="project" name="mysql-connector-java-8.0.24" />
+    </root>
+  </artifact>
+</component>

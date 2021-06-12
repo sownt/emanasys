@@ -29,7 +29,7 @@ public class DatabaseController {
         DatabaseController.current = stage;
         Scene scene = null;
         try {
-            scene = new Scene(FXMLLoader.load(DatabaseController.class.getResource("../../res/views/database.fxml")));
+            scene = new Scene(FXMLLoader.load(DatabaseController.class.getResource("/com/vosxvo/res/views/database.fxml")));
         } catch (IOException e) {
             e.printStackTrace();
         }
