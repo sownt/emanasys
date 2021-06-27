@@ -31,6 +31,9 @@ public class MainController implements Initializable, Controller {
     @FXML
     private HBox tools;
 
+    @FXML
+    private HBox status;
+
     /**
      * Show main scene
      * @param stage current stage to add this scene
@@ -71,6 +74,7 @@ public class MainController implements Initializable, Controller {
         try {
             mainPane.setCenter(FXMLLoader.load(MainController.class.getResource("/com/vosxvo/res/views/main_dashboard.fxml")));
             sideBar.getChildren().add(FXMLLoader.load(MainController.class.getResource("/com/vosxvo/res/views/main_menu.fxml")));
+            status.getChildren().add(FXMLLoader.load(MainController.class.getResource("/com/vosxvo/res/views/bottom_status.fxml")));
         } catch (IOException e) {
             e.printStackTrace();
         }

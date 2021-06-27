@@ -33,7 +33,7 @@ public class DatabaseController {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        stage.setTitle("Employee Manager - Database Initialize");
+        stage.setTitle("eManasys - Database Initialize");
         stage.setScene(scene);
         stage.show();
     }

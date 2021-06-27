@@ -47,6 +47,7 @@
             <Insets top="25.0" />
          </BorderPane.margin>
          <children>
+            <HBox fx:id="status" prefHeight="50.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
             <HBox fx:id="tools" alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="775.0" AnchorPane.leftAnchor="775.0" AnchorPane.topAnchor="0.0" />
          </children></AnchorPane>
    </bottom>

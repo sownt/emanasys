@@ -69,3 +69,6 @@
     -fx-background-radius: 0 ;
     -fx-text-fill: black;
 }
+.status {
+    -fx-opacity: 0.5;
+}

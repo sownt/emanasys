@@ -35,7 +35,7 @@ public class LoginController {
             e.printStackTrace();
         }
 
-        stage.setTitle("Employee Manager - Login");
+        stage.setTitle("eManasys - Login");
         stage.setScene(scene);
         stage.show();
     }
@@ -85,7 +85,11 @@ public class LoginController {
 
         if (isValidCrd(username, password)) {
             // TODO : Do somethings
-//            HomePageController.show(LoginController.current);
+            try {
+                MainController.show(Controller.CONTROLLER_MANAGE.getGlobal());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
             return true;
         }
         return false;

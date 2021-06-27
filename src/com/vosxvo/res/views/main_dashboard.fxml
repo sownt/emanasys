@@ -1,15 +1,311 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1275.0" styleClass="main-pane" stylesheets="@../styles/main.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1275.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vosxvo.java.controllers.DashboardController">
    <children>
-      <Label prefHeight="50.0" prefWidth="300.0" text="COMING SOON!" AnchorPane.leftAnchor="480.0" AnchorPane.topAnchor="290.0">
-         <font>
-            <Font name="System Bold" size="30.0" />
-         </font>
-      </Label>
+      <HBox alignment="CENTER" prefHeight="150.0" prefWidth="900.0" styleClass="main-pane" stylesheets="@../styles/main.css">
+         <children>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="300.0">
+               <children>
+                  <Label fx:id="users" text="0">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/outline_person_outline_black_48dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label text="Users">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <Separator maxHeight="100.0" orientation="VERTICAL" />
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="300.0">
+               <children>
+                  <Label fx:id="employees" text="0">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/outline_people_black_48dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label text="Employees">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <Separator maxHeight="100.0" orientation="VERTICAL" />
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="300.0">
+               <children>
+                  <Label fx:id="departments" text="0">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/outline_apartment_black_48dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Label text="Departments">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Pane prefHeight="475.0" prefWidth="900.0" styleClass="main-pane" stylesheets="@../styles/main.css" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="175.0">
+         <children>
+            <BarChart fx:id="barChar" alternativeRowFillVisible="false" horizontalGridLinesVisible="false" horizontalZeroLineVisible="false" layoutX="5.0" layoutY="5.0" legendVisible="false" prefHeight="465.0" prefWidth="850.0" stylesheets="@../styles/barchart.css" verticalZeroLineVisible="false">
+              <xAxis>
+                 <NumberAxis label="AVG. SALARY" side="LEFT" stylesheets="@../styles/barchart.css" upperBound="3000.0" />
+              </xAxis>
+              <yAxis>
+                 <CategoryAxis label="DEPARTMENT" side="BOTTOM" stylesheets="@../styles/barchart.css" />
+              </yAxis>
+            </BarChart>
+         </children>
+      </Pane>
+      <VBox prefHeight="650.0" prefWidth="350.0" AnchorPane.leftAnchor="925.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="312.0" prefWidth="350.0" styleClass="main-pane" stylesheets="@../styles/main.css">
+               <children>
+                  <Label prefHeight="61.0" prefWidth="350.0" text="HIGH">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets left="25.0" />
+                     </padding>
+                  </Label>
+                  <Separator maxWidth="300.0" />
+                  <HBox prefHeight="49.0" prefWidth="350.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="50.0" prefWidth="50.0" text="1">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="top1" prefHeight="50.0" prefWidth="275.0">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="25.0" />
+                     </padding>
+                  </HBox>
+                  <Separator maxWidth="300.0" />
+                  <HBox prefHeight="49.0" prefWidth="350.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="50.0" prefWidth="50.0" text="2">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="top2" prefHeight="50.0" prefWidth="275.0">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="25.0" />
+                     </padding>
+                  </HBox>
+                  <Separator maxWidth="300.0" />
+                  <HBox prefHeight="49.0" prefWidth="350.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="50.0" prefWidth="50.0" text="3">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="top3" prefHeight="50.0" prefWidth="275.0">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="25.0" />
+                     </padding>
+                  </HBox>
+                  <Separator maxWidth="300.0" />
+                  <HBox prefHeight="49.0" prefWidth="350.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="50.0" prefWidth="50.0" text="4">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="top4" prefHeight="50.0" prefWidth="275.0">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="25.0" />
+                     </padding>
+                  </HBox>
+                  <Separator maxWidth="300.0" />
+                  <HBox prefHeight="50.0" prefWidth="350.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="50.0" prefWidth="50.0" text="5">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="top5" prefHeight="50.0" prefWidth="275.0">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="25.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox prefHeight="312.0" prefWidth="350.0" styleClass="main-pane" stylesheets="@../styles/main.css">
+               <VBox.margin>
+                  <Insets top="25.0" />
+               </VBox.margin>
+               <children>
+                  <Label prefHeight="61.0" prefWidth="350.0" text="LOW">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets left="25.0" />
+                     </padding>
+                  </Label>
+                  <Separator maxWidth="300.0" />
+                  <HBox prefHeight="49.0" prefWidth="350.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="50.0" prefWidth="50.0" text="1">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="low1" prefHeight="50.0" prefWidth="275.0">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="25.0" />
+                     </padding>
+                  </HBox>
+                  <Separator maxWidth="300.0" />
+                  <HBox prefHeight="49.0" prefWidth="350.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="50.0" prefWidth="50.0" text="2">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="low2" prefHeight="50.0" prefWidth="275.0">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="25.0" />
+                     </padding>
+                  </HBox>
+                  <Separator maxWidth="300.0" />
+                  <HBox prefHeight="49.0" prefWidth="350.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="50.0" prefWidth="50.0" text="3">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="low3" prefHeight="50.0" prefWidth="275.0">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="25.0" />
+                     </padding>
+                  </HBox>
+                  <Separator maxWidth="300.0" />
+                  <HBox prefHeight="49.0" prefWidth="350.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="50.0" prefWidth="50.0" text="4">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="low4" prefHeight="50.0" prefWidth="275.0">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="25.0" />
+                     </padding>
+                  </HBox>
+                  <Separator maxWidth="300.0" />
+                  <HBox prefHeight="49.0" prefWidth="350.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="50.0" prefWidth="50.0" text="5">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="low5" prefHeight="50.0" prefWidth="275.0">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="25.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </VBox>
+         </children></VBox>
    </children>
 </AnchorPane>

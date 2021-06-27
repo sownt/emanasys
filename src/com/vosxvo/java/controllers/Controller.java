@@ -8,6 +8,7 @@ public interface Controller {
     int DEPARTMENTS_CONTROLLER = 4;
     int TITLES_CONTROLLER = 5;
     int NAVIGATOR_CONTROLLER = 6;
+    int DASHBOARD_CONTROLLER = 7;
     ControllerManage CONTROLLER_MANAGE = ControllerManage.getInstance();
 
     Dataflow getDataflow();

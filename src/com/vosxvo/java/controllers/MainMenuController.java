@@ -54,6 +54,8 @@ public class MainMenuController extends Menu implements Initializable {
             changeSelected(this, notifications);
         } else if (source.equals(messages)) {
             changeSelected(this, messages);
+        } else if (source.equals(logout)) {
+            LoginController.show(Controller.CONTROLLER_MANAGE.getGlobal());
         }
     }
 
