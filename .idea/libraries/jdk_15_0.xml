@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="jdk-15.0">
-    <CLASSES>
-      <root url="file:///opt/java/jdk-15.0.2" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

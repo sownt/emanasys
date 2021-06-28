@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0"
+      prefWidth="250.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.vosxvo.controllers.ManageMenuController">
+   <children>
+      <Button fx:id="employees" alignment="BASELINE_LEFT" mnemonicParsing="false" onMouseClicked="#onMouseClickedListener" prefHeight="50.0" prefWidth="250.0" styleClass="menu-item" stylesheets="@../styles/main.css" text="EMPLOYEES">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/outline_people_black_48dp.png" />
+               </image></ImageView>
+         </graphic>
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+      </Button>
+      <Button fx:id="users" alignment="BASELINE_LEFT" mnemonicParsing="false" onMouseClicked="#onMouseClickedListener" prefHeight="50.0" prefWidth="250.0" styleClass="menu-item" stylesheets="@../styles/main.css" text="USERS">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/outline_person_outline_black_48dp.png" />
+               </image></ImageView>
+         </graphic>
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+      </Button>
+      <Button fx:id="salaries" alignment="BASELINE_LEFT" mnemonicParsing="false" onMouseClicked="#onMouseClickedListener" prefHeight="50.0" prefWidth="250.0" styleClass="menu-item" stylesheets="@../styles/main.css" text="SALARIES">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/outline_payments_black_48dp.png" />
+               </image></ImageView>
+         </graphic>
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+      </Button>
+      <Button fx:id="departments" alignment="BASELINE_LEFT" mnemonicParsing="false" onMouseClicked="#onMouseClickedListener" prefHeight="50.0" prefWidth="250.0" styleClass="menu-item" stylesheets="@../styles/main.css" text="DEPARTMENTS">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/outline_apartment_black_48dp.png" />
+               </image></ImageView>
+         </graphic>
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+      </Button>
+      <Button fx:id="titles" alignment="BASELINE_LEFT" mnemonicParsing="false" onMouseClicked="#onMouseClickedListener" prefHeight="50.0" prefWidth="250.0" styleClass="menu-item" stylesheets="@../styles/main.css" text="TITLES">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/outline_list_alt_black_48dp.png" />
+               </image></ImageView>
+         </graphic>
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+      </Button>
+      <Button fx:id="back" alignment="BASELINE_LEFT" mnemonicParsing="false" onMouseClicked="#onMouseClickedListener" prefHeight="50.0" prefWidth="250.0" styleClass="menu-item" stylesheets="@../styles/main.css" text="BACK">
+         <VBox.margin>
+            <Insets top="50.0" />
+         </VBox.margin>
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/outline_arrow_back_black_48dp.png" />
+               </image></ImageView>
+         </graphic>
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+      </Button>
+   </children>
+   <padding>
+      <Insets bottom="50.0" top="50.0" />
+   </padding>
+</VBox>

@@ -1,0 +1,93 @@
+.main-label {
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+.text-field {
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 0 ;
+    -fx-text-fill: black;
+}
+.text-field:hover {
+    -fx-background-color: black, -fx-background ;
+    -fx-prompt-text-fill: black ;
+}
+.text-field:focused {
+    -fx-background-color: black, -fx-background ;
+    -fx-prompt-text-fill: black ;
+}
+.password-field {
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 0 ;
+    -fx-text-fill: black;
+}
+.password-field:hover {
+    -fx-background-color: black, -fx-background ;
+    -fx-prompt-text-fill: black ;
+}
+.password-field:focused {
+    -fx-background-color: black, -fx-background ;
+    -fx-prompt-text-fill: black ;
+}
+.combo-box {
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 0 ;
+}
+.combo-box:hover {
+    -fx-background-color: black, -fx-background ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 0 ;
+    -fx-text-fill: -fx-text-box-border;
+}
+.button {
+    -fx-background-color : gray;
+    -fx-background-radius: 20px;
+    -fx-border-color: gray;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-text-fill:  white;
+}
+.button:hover {
+    -fx-background-color : black;
+    -fx-background-radius: 20px;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-text-fill:  white;
+}
+.button:pressed {
+    -fx-background-color : black;
+    -fx-background-radius: 20px;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-border-color: black;
+    -fx-text-fill: white;
+}
+.test-connection {
+    -fx-background-color : -fx-background;
+    -fx-background-radius: 5px;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-text-fill:  black;
+}
+.test-connection:hover {
+    -fx-background-color : black;
+    -fx-background-radius: 5px;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-text-fill:  white;
+}
+.test-connection:pressed {
+    -fx-background-color : black;
+    -fx-background-radius: 5px;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-text-fill:  white;
+}

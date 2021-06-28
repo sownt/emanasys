@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0"
+      prefWidth="250.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.vosxvo.controllers.MainMenuController">
+   <children>
+      <Button fx:id="dashboard" alignment="BASELINE_LEFT" mnemonicParsing="false" onMouseClicked="#onClickedListener" prefHeight="50.0" prefWidth="250.0" styleClass="menu-item" stylesheets="@../styles/main.css" text="DASHBOARD">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/outline_dashboard_black_48dp.png" />
+               </image></ImageView>
+         </graphic>
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+      </Button>
+      <Button fx:id="manage" alignment="BASELINE_LEFT" mnemonicParsing="false" onMouseClicked="#onClickedListener" prefHeight="50.0" prefWidth="250.0" styleClass="menu-item" stylesheets="@../styles/main.css" text="MANAGE">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/outline_manage_accounts_black_48dp.png" />
+               </image></ImageView>
+         </graphic>
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+      </Button>
+      <Button fx:id="notifications" alignment="BASELINE_LEFT" mnemonicParsing="false" onMouseClicked="#onClickedListener" prefHeight="50.0" prefWidth="250.0" styleClass="menu-item" stylesheets="@../styles/main.css" text="NOTIFICATIONS">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/outline_notifications_black_48dp.png" />
+               </image></ImageView>
+         </graphic>
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+      </Button>
+      <Button fx:id="messages" alignment="BASELINE_LEFT" mnemonicParsing="false" onMouseClicked="#onClickedListener" prefHeight="50.0" prefWidth="250.0" styleClass="menu-item" stylesheets="@../styles/main.css" text="MESSAGES">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/outline_forum_black_48dp.png" />
+               </image></ImageView>
+         </graphic>
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+      </Button>
+      <Button fx:id="logout" alignment="BASELINE_LEFT" mnemonicParsing="false" onMouseClicked="#onClickedListener" prefHeight="50.0" prefWidth="250.0" styleClass="menu-item" stylesheets="@../styles/main.css" text="LOGOUT">
+         <VBox.margin>
+            <Insets top="50.0" />
+         </VBox.margin>
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/outline_logout_black_48dp.png" />
+               </image></ImageView>
+         </graphic>
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+      </Button>
+   </children>
+   <padding>
+      <Insets bottom="50.0" top="50.0" />
+   </padding>
+</VBox>

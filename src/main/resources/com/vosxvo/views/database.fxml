@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.vosxvo.controllers.DatabaseController">
+   <Pane prefHeight="900.0" prefWidth="1050.0">
+      <ImageView fitHeight="300.0" fitWidth="300.0" layoutX="375.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@../images/data-server.png" />
+      </ImageView>
+   </Pane>
+   <Pane prefHeight="900.0" prefWidth="550.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="1050.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <Label layoutX="75.0" layoutY="200.0" prefHeight="50.0" prefWidth="400.0" styleClass="main-label" stylesheets="@../styles/database.css" text="INITIALIZE DATABASE" />
+      <Pane layoutX="75.0" layoutY="300.0" prefHeight="400.0" prefWidth="400.0">
+         <TextField fx:id="dbHost" layoutY="50.0" onKeyReleased="#onChanged" prefHeight="35.0" prefWidth="300.0" promptText="Host" stylesheets="@../styles/database.css" />
+         <TextField fx:id="dbPort" layoutX="310.0" layoutY="50.0" onKeyReleased="#onChanged" prefHeight="35.0" prefWidth="90.0" promptText="Port" stylesheets="@../styles/database.css" />
+         <TextField fx:id="username" layoutY="100.0" prefHeight="35.0" prefWidth="400.0" promptText="Username" stylesheets="@../styles/database.css" />
+         <PasswordField fx:id="password" layoutY="150.0" prefHeight="35.0" prefWidth="400.0" promptText="Password" stylesheets="@../styles/database.css" />
+         <TextField fx:id="db" layoutY="200.0" onKeyReleased="#onChanged" prefHeight="35.0" prefWidth="400.0" promptText="Database" stylesheets="@../styles/database.css" />
+         <TextField fx:id="dbURL" layoutY="250.0" prefHeight="35.0" prefWidth="400.0" promptText="URL" stylesheets="@../styles/database.css" />
+         <Button fx:id="dbConnect" layoutX="50.0" layoutY="350.0" mnemonicParsing="false" onMouseClicked="#connectToDatabase" prefHeight="40.0" prefWidth="300.0" stylesheets="@../styles/database.css" text="CONNECT" />
+      </Pane>
+   </Pane>
+</AnchorPane>

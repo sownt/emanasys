@@ -1,0 +1,114 @@
+.wallpaper {
+    -fx-background-color: white;
+}
+.text-field {
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 0 ;
+    -fx-text-fill: black;
+}
+.text-field:hover {
+    -fx-background-color: black, -fx-background ;
+    -fx-prompt-text-fill: black ;
+}
+.text-field:focused {
+    -fx-background-color: black, -fx-background ;
+    -fx-prompt-text-fill: black ;
+}
+.password-field {
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 0 ;
+    -fx-text-fill: black;
+}
+.password-field:hover {
+    -fx-background-color: black, -fx-background ;
+    -fx-prompt-text-fill: black ;
+}
+.password-field:focused {
+    -fx-background-color: black, -fx-background ;
+    -fx-prompt-text-fill: black ;
+}
+.button {
+    -fx-background-color : gray;
+    -fx-background-radius: 20px;
+    -fx-border-color: gray;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-text-fill:  white;
+}
+.button:hover {
+    -fx-background-color : black;
+    -fx-background-radius: 20px;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-text-fill:  white;
+}
+.button:pressed {
+    -fx-background-color : black;
+    -fx-background-radius: 20px;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-border-color: black;
+    -fx-text-fill: white;
+}
+
+.forgot-password {
+    -fx-background-color : -fx-background;
+    -fx-border-color: -fx-background;
+    -fx-text-fill:  gray;
+}
+.forgot-password:hover {
+    -fx-background-color : -fx-background;
+    -fx-border-color: -fx-background;
+    -fx-text-fill:  black;
+}
+.forgot-password:pressed {
+    -fx-background-color : -fx-background;
+    -fx-border-color: -fx-background;
+    -fx-text-fill:  black;
+}
+.separator {
+}
+.or-label {
+    -fx-background-color: -fx-background;
+}
+.sign-in-with-github {
+    -fx-background-color : -fx-background;
+    -fx-border-color: -fx-background;
+    -fx-text-fill: black;
+}
+.sign-in-with-github:hover {
+    -fx-background-color : -fx-background;
+    -fx-border-color: -fx-background;
+    -fx-text-fill: black;
+}
+.sign-in-with-github:pressed {
+    -fx-background-color : -fx-background;
+    -fx-border-color: -fx-background;
+    -fx-text-fill: black;
+}
+.create-account {
+    -fx-background-color : -fx-background;
+    -fx-border-color: -fx-background;
+    -fx-text-fill: black;
+    -fx-text-alignment: left;
+}
+.create-account:hover {
+    -fx-background-color : -fx-background;
+    -fx-border-color: -fx-background;
+    -fx-text-fill: -fx-focus-color;
+    -fx-text-alignment: left;
+    -fx-underline: true;
+}
+.create-account:pressed {
+    -fx-background-color : -fx-background;
+    -fx-border-color: -fx-background;
+    -fx-text-fill: -fx-focus-color;
+    -fx-text-alignment: left;
+    -fx-underline: true;
+}
+.mockup {
+    -fx-background-color: white;
+}

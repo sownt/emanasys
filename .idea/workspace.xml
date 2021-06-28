@@ -1,222 +1,316 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="employee" />
-    </artifacts-to-build>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cd4db2d-711c-4931-a953-5f1dfb704f6c" name="Default Changelist" comment="" />
+    <list default="true" id="11ca55ba-ee0b-49c4-82cb-e7b93666502f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/views/bottom_status.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/services/model/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_apartment_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_arrow_back_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_check_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_cloud_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_cloud_off_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_dashboard_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_edit_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_first_page_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_forum_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_keyboard_arrow_left_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_keyboard_arrow_right_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_last_page_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_list_alt_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_logout_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_manage_accounts_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_notifications_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_payments_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_people_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_person_outline_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/icons/outline_search_black_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/images/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/images/data-server.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/images/github-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/images/login_cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/images/logo256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/images/logo@0.25x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/sql/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/sql/sample-data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/styles/barchart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/styles/database.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/styles/draft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/views/bottom_nav.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/views/bottom_status.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/views/database.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/views/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/views/main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/views/main_dashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/views/main_menu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/views/manage_departments.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/views/manage_employees.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/views/manage_menu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/views/manage_salaries.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/views/manage_titles.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/vosxvo/views/manage_users.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/LinkedDeps.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/employee.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/employee_management_system.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8883340-4ce5-462f-abe7-c8f0f0d6b350.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8883340-4ce5-462f-abe7-c8f0f0d6b350/storage_v2/_src_/schema/employee.ruYiRw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8883340-4ce5-462f-abe7-c8f0f0d6b350/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8883340-4ce5-462f-abe7-c8f0f0d6b350/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8883340-4ce5-462f-abe7-c8f0f0d6b350/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8883340-4ce5-462f-abe7-c8f0f0d6b350/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jdk_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-management-system.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/database_black.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/database_black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/database_uml.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/database_uml.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/database_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/database_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/header.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/header.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/login_pane.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/login_pane.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/controllers/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/ControllerManage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/controllers/ControllerManage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/controllers/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/DatabaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/controllers/DatabaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/Dataflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/controllers/Dataflow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/DepartmentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/controllers/DepartmentsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/EmployeesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/controllers/EmployeesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/MainMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/controllers/MainMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/ManageMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/controllers/ManageMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/controllers/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/Navigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/controllers/Navigator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/NavigatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/controllers/NavigatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/SalariesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/controllers/SalariesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/StatusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/controllers/StatusController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/TitlesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/controllers/TitlesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/controllers/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/database/DatabaseServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/services/database/DatabaseServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/database/MySQLConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/services/database/MySQLConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/database/MySQLServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/services/database/MySQLServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/file/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/services/file/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/services/model/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/services/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/Model.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/Salary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/services/model/Salary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/services/model/Title.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/services/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/sql/MySQLHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/services/sql/MySQLHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/thread/RealtimeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/services/thread/RealtimeThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/java/services/thread/TableThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vosxvo/services/thread/TableThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_apartment_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_apartment_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_arrow_back_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_arrow_back_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_check_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_check_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_cloud_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_cloud_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_cloud_off_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_cloud_off_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_dashboard_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_dashboard_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_edit_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_edit_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_first_page_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_first_page_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_forum_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_forum_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_keyboard_arrow_left_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_keyboard_arrow_left_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_keyboard_arrow_right_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_keyboard_arrow_right_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_last_page_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_last_page_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_list_alt_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_list_alt_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_logout_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_logout_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_manage_accounts_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_manage_accounts_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_notifications_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_notifications_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_payments_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_payments_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_people_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_people_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_person_outline_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_person_outline_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/icons/outline_search_black_48dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/icons/outline_search_black_48dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/images/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/images/avatar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/images/data-server.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/images/data-server.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/images/github-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/images/github-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/images/login_cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/images/login_cover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/images/logo256.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/images/logo256.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/images/logo@0.25x.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/images/logo@0.25x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/sql/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/sql/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/sql/sample-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/sql/sample-data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/styles/barchart.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/styles/barchart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/styles/database.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/styles/database.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/styles/draft.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/styles/draft.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/styles/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/bottom_nav.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/views/bottom_nav.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/bottom_status.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/database.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/views/database.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/views/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/views/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/main_dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/views/main_dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/main_menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/views/main_menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/manage_departments.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/views/manage_departments.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/manage_employees.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/views/manage_employees.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/manage_menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/views/manage_menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/manage_salaries.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/views/manage_salaries.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/manage_titles.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/views/manage_titles.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vosxvo/res/views/manage_users.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/com/vosxvo/views/manage_users.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="FxmlFile" />
-        <option value="module-info" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="employee-management-system" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="employee-management-system" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="employee-management-system" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="ProjectId" id="1rAGHqmIh9Y0FzTEBzn28Ywpd2s" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="1uXKCq5rh74L0qFyS2yjdUsQGoO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
-    <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/MOCK_DATA.csv" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.17489539" />
-    <property name="project.structure.side.proportion" value="0.23626375" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Configuration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vosxvo.java.services.file.Configuration" />
-      <module name="employee-management-system" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vosxvo.java.services.file.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControllerManage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vosxvo.java.controllers.ControllerManage" />
-      <module name="employee-management-system" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vosxvo.java.controllers.Controller" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="employee-management-system [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="LoginController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vosxvo.java.controllers.LoginController" />
-      <module name="employee-management-system" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vosxvo.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.LoginController" />
-      <item itemvalue="Application.Configuration" />
-      <item itemvalue="Application.ControllerManage" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ControllerManage" />
-        <item itemvalue="Application.Configuration" />
-        <item itemvalue="Application.LoginController" />
+        <item itemvalue="Gradle.employee-management-system [run]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6cd4db2d-711c-4931-a953-5f1dfb704f6c" name="Default Changelist" comment="" />
-      <created>1618411396667</created>
+      <changelist id="11ca55ba-ee0b-49c4-82cb-e7b93666502f" name="Default Changelist" comment="" />
+      <created>1624806369399</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1618411396667</updated>
-      <workItem from="1618411399366" duration="11000" />
-      <workItem from="1618459561041" duration="1214000" />
-      <workItem from="1618462111436" duration="5046000" />
-      <workItem from="1618472360834" duration="5000" />
-      <workItem from="1618487699232" duration="2290000" />
-      <workItem from="1618490080166" duration="3125000" />
-      <workItem from="1618493210868" duration="298000" />
-      <workItem from="1618674116864" duration="1638000" />
-      <workItem from="1618675761062" duration="559000" />
-      <workItem from="1618759119441" duration="4407000" />
-      <workItem from="1618840102334" duration="6000" />
-      <workItem from="1618912364703" duration="2089000" />
-      <workItem from="1618981021780" duration="12581000" />
-      <workItem from="1619012632098" duration="2477000" />
-      <workItem from="1619017889155" duration="1875000" />
-      <workItem from="1619021294980" duration="115000" />
-      <workItem from="1619077915233" duration="8846000" />
-      <workItem from="1619087130347" duration="1978000" />
-      <workItem from="1619092044153" duration="1214000" />
-      <workItem from="1619154951186" duration="2934000" />
-      <workItem from="1620309634914" duration="826000" />
-      <workItem from="1620694862935" duration="364000" />
-      <workItem from="1620825524685" duration="4601000" />
-      <workItem from="1620867068007" duration="339000" />
-      <workItem from="1621133098077" duration="574000" />
-      <workItem from="1621133702025" duration="636000" />
-      <workItem from="1621328077533" duration="64000" />
-      <workItem from="1621330645866" duration="3666000" />
-      <workItem from="1621337051722" duration="5509000" />
-      <workItem from="1621398089436" duration="13999000" />
-      <workItem from="1621765031831" duration="25399000" />
-      <workItem from="1621840520017" duration="7721000" />
-      <workItem from="1621850839350" duration="12000" />
-      <workItem from="1621865531308" duration="10000" />
-      <workItem from="1621866671914" duration="16000" />
-      <workItem from="1621866727511" duration="7000" />
-      <workItem from="1621868015096" duration="12946000" />
-      <workItem from="1621995577875" duration="46000" />
-      <workItem from="1621995645478" duration="200000" />
-      <workItem from="1622003190229" duration="6000" />
-      <workItem from="1622010069816" duration="386000" />
-      <workItem from="1622011441017" duration="31000" />
-      <workItem from="1622011475340" duration="4805000" />
-      <workItem from="1622020444303" duration="2461000" />
-      <workItem from="1622034981326" duration="226000" />
-      <workItem from="1622035862419" duration="2125000" />
-      <workItem from="1622038179979" duration="1130000" />
-      <workItem from="1622040228475" duration="4000" />
-      <workItem from="1622078212880" duration="3104000" />
-      <workItem from="1622114157832" duration="3300000" />
-      <workItem from="1622203490079" duration="13840000" />
-      <workItem from="1622220950257" duration="9000" />
-      <workItem from="1622344626669" duration="2050000" />
-      <workItem from="1622383133953" duration="599000" />
-      <workItem from="1622424199609" duration="7895000" />
-      <workItem from="1622511397533" duration="5968000" />
-      <workItem from="1622681428346" duration="52000" />
-      <workItem from="1622681509623" duration="5821000" />
-      <workItem from="1622719805888" duration="4294000" />
-      <workItem from="1623065596671" duration="415000" />
-      <workItem from="1623144083149" duration="8193000" />
-      <workItem from="1623203945138" duration="2830000" />
-      <workItem from="1623326163290" duration="2839000" />
-      <workItem from="1623379218423" duration="5407000" />
-      <workItem from="1623498556362" duration="9389000" />
-      <workItem from="1623586986732" duration="1244000" />
-      <workItem from="1623672877204" duration="279000" />
-      <workItem from="1624018921851" duration="1189000" />
-      <workItem from="1624157114807" duration="5954000" />
-      <workItem from="1624189077639" duration="1875000" />
-      <workItem from="1624503376868" duration="1198000" />
-      <workItem from="1624697833917" duration="244000" />
-      <workItem from="1624698092475" duration="10203000" />
-      <workItem from="1624766589856" duration="6583000" />
-      <workItem from="1624786942841" duration="556000" />
+      <updated>1624806369399</updated>
+      <workItem from="1624806377287" duration="2386000" />
+      <workItem from="1624847835234" duration="625000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0"
+            prefWidth="1275.0" stylesheets="@../styles/main.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.vosxvo.controllers.DepartmentsController">
+   <children>
+      <TableView fx:id="table" prefHeight="650.0" prefWidth="1275.0">
+         <columns>
+            <TableColumn fx:id="id" maxWidth="300.0" minWidth="300.0" prefWidth="300.0" resizable="false" text="ID" />
+            <TableColumn fx:id="name" maxWidth="975.0" minWidth="975.0" prefWidth="975.0" resizable="false" text="DEPARTMENT NAME" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
