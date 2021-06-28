@@ -2,64 +2,66 @@ com/vosxvo/services/sql/MySQLHandle.java
  com.vosxvo.services.sql.MySQLHandle
 com/vosxvo/services/file/Configuration.java
  com.vosxvo.services.file.Configuration
+com/vosxvo/controllers/DatabaseController.java
+ com.vosxvo.controllers.DatabaseController
 com/vosxvo/controllers/Controller.java
  com.vosxvo.controllers.Controller
-com/vosxvo/services/thread/RealtimeThread.java
- com.vosxvo.services.thread.RealtimeThread
 com/vosxvo/controllers/Navigator.java
  com.vosxvo.controllers.Navigator
+module-info.java
+ module-info
 com/vosxvo/services/model/User.java
  com.vosxvo.services.model.User
-com/vosxvo/services/model/Department.java
- com.vosxvo.services.model.Department
+com/vosxvo/controllers/LoginController.java
+ com.vosxvo.controllers.LoginController
 com/vosxvo/services/database/MySQLServices.java
  com.vosxvo.services.database.MySQLServices
-com/vosxvo/services/model/Model.java
- com.vosxvo.services.model.Model
-com/vosxvo/controllers/Menu.java
- com.vosxvo.controllers.Menu
+com/vosxvo/services/model/Department.java
+ com.vosxvo.services.model.Department
 com/vosxvo/controllers/DashboardController.java
  com.vosxvo.controllers.DashboardController
-com/vosxvo/services/model/Salary.java
- com.vosxvo.services.model.Salary
+com/vosxvo/Main.java
+ com.vosxvo.Main
 com/vosxvo/services/thread/TableThread.java
  com.vosxvo.services.thread.TableThread
-com/vosxvo/services/model/Employee.java
- com.vosxvo.services.model.Employee
+com/vosxvo/services/model/Salary.java
+ com.vosxvo.services.model.Salary
+com/vosxvo/controllers/MainController.java
+ com.vosxvo.controllers.MainController
 com/vosxvo/controllers/ControllerManage.java
  com.vosxvo.controllers.ControllerManage
  com.vosxvo.controllers.ControllerManage$ControllerManageHelper
-com/vosxvo/services/database/DatabaseServices.java
- com.vosxvo.services.database.DatabaseServices
-com/vosxvo/controllers/Dataflow.java
- com.vosxvo.controllers.Dataflow
-com/vosxvo/services/model/Title.java
- com.vosxvo.services.model.Title
-com/vosxvo/controllers/NavigatorController.java
- com.vosxvo.controllers.NavigatorController
-com/vosxvo/services/database/MySQLConfiguration.java
- com.vosxvo.services.database.MySQLConfiguration
-com/vosxvo/controllers/DatabaseController.java
- com.vosxvo.controllers.DatabaseController
-com/vosxvo/Main.java
- com.vosxvo.Main
-com/vosxvo/controllers/StatusController.java
- com.vosxvo.controllers.StatusController
-com/vosxvo/controllers/SalariesController.java
- com.vosxvo.controllers.SalariesController
-com/vosxvo/controllers/LoginController.java
- com.vosxvo.controllers.LoginController
-com/vosxvo/controllers/MainMenuController.java
- com.vosxvo.controllers.MainMenuController
-com/vosxvo/controllers/TitlesController.java
- com.vosxvo.controllers.TitlesController
-com/vosxvo/controllers/MainController.java
- com.vosxvo.controllers.MainController
-com/vosxvo/controllers/UsersController.java
- com.vosxvo.controllers.UsersController
 com/vosxvo/controllers/ManageMenuController.java
  com.vosxvo.controllers.ManageMenuController
+com/vosxvo/controllers/Dataflow.java
+ com.vosxvo.controllers.Dataflow
+com/vosxvo/controllers/MainMenuController.java
+ com.vosxvo.controllers.MainMenuController
+com/vosxvo/controllers/NavigatorController.java
+ com.vosxvo.controllers.NavigatorController
 com/vosxvo/controllers/DepartmentsController.java
  com.vosxvo.controllers.DepartmentsController
+com/vosxvo/services/model/Employee.java
+ com.vosxvo.services.model.Employee
+com/vosxvo/services/database/MySQLConfiguration.java
+ com.vosxvo.services.database.MySQLConfiguration
+com/vosxvo/controllers/SalariesController.java
+ com.vosxvo.controllers.SalariesController
+com/vosxvo/controllers/UsersController.java
+ com.vosxvo.controllers.UsersController
+com/vosxvo/controllers/StatusController.java
+ com.vosxvo.controllers.StatusController
+com/vosxvo/controllers/Menu.java
+ com.vosxvo.controllers.Menu
+com/vosxvo/services/thread/RealtimeThread.java
+ com.vosxvo.services.thread.RealtimeThread
+com/vosxvo/controllers/TitlesController.java
+ com.vosxvo.controllers.TitlesController
+com/vosxvo/services/model/Title.java
+ com.vosxvo.services.model.Title
+com/vosxvo/services/database/DatabaseServices.java
+ com.vosxvo.services.database.DatabaseServices
+com/vosxvo/services/model/Model.java
+ com.vosxvo.services.model.Model
 com/vosxvo/controllers/EmployeesController.java
  com.vosxvo.controllers.EmployeesController

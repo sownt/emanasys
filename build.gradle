@@ -2,6 +2,7 @@ plugins {
     id 'java'
     id 'application'
     id 'org.openjfx.javafxplugin' version '0.0.10'
+    id 'org.beryx.jlink' version '2.24.0'
 }
 
 group 'com.vosxvo'
@@ -9,6 +10,11 @@ version '1.0'
 
 repositories {
     mavenCentral()
+}
+
+application {
+    mainClassName('com.vosxvo.Main')
+    mainModule.set('com.vosxvo')
 }
 
 dependencies {
@@ -26,4 +32,8 @@ javafx {
     modules = [ 'javafx.controls', 'javafx.fxml' ]
 }
 
-mainClassName = 'com.vosxvo.Main'
+jlink {
+    jpackage {
+        installerType = 'deb'
+    }
+}
